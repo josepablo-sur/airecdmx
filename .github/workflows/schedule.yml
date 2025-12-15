@@ -2,25 +2,21 @@ name: Actualizar Datos Aire CDMX
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Cada 15 min
+    - cron: '*/15 * * * *'  # Ejecutar cada 15 min
   workflow_dispatch:      # Botón manual
 
 jobs:
   import-data:
-    runs-on: ubuntu-latest
+    # --- EL CAMBIO CLAVE: USAR LINUX VERSIÓN 2020 ---
+    # Esta versión no tiene los bloqueos de seguridad estrictos de OpenSSL 3.0
+    runs-on: ubuntu-20.04
+    
     permissions:
       contents: write
+      
     steps:
       - name: Checkout del código
         uses: actions/checkout@v3
-
-      # --- EL FIX MÁGICO: BAJAR SEGURIDAD DEL SISTEMA OPERATIVO ---
-      - name: Downgrade OpenSSL Security (Fix DH key too small)
-        run: |
-          # Forzamos al sistema a aceptar llaves inseguras (Nivel 0)
-          sudo sed -i 's/SECLEVEL=2/SECLEVEL=0/g' /etc/ssl/openssl.cnf
-          # Por si acaso la sintaxis varía en esta versión de Ubuntu:
-          sudo sed -i 's/DEFAULT@SECLEVEL=2/DEFAULT@SECLEVEL=0/g' /etc/ssl/openssl.cnf
 
       - name: Instalar dependencias de sistema (Linux)
         run: |
@@ -33,6 +29,7 @@ jobs:
           r-version: 'release'
 
       - name: Instalar librerías de R
+        # Instalamos versiones binarias compiladas para ir más rápido
         run: |
           install.packages(c("httr", "stringr", "dplyr", "readr"), repos = "https://cloud.r-project.org")
         shell: Rscript {0}
