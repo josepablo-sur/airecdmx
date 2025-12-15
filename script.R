@@ -1,61 +1,69 @@
 # script.R
-# VERSION: ESPIA V2 (Si no ves esto en el log, no se actualizó)
+# VERSION: DECODIFICADOR ROBUSTO
 
 library(httr)
 library(stringr)
 library(dplyr)
 library(readr)
 
-# URL del gobierno
 base_url <- "https://www.aire.cdmx.gob.mx/"
-
-# Header falso (User Agent)
 ua <- user_agent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36")
 
-# Configuración SSL básica (Ubuntu 20.04 permite esto)
+# Usamos la configuración insegura que ya sabemos que funciona
 server_config <- config(ssl_verifypeer = 0, ssl_verifyhost = 0)
 
 tryCatch({
-  print("--- INICIANDO DIAGNÓSTICO (VERSION ESPIA) ---")
-  print("1. Intentando descargar página principal...")
+  print("--- INTENTO DE LECTURA ROBUSTA ---")
   
-  # Hacemos la petición
+  # 1. Descargamos como RAW (Crudo, sin intentar leer letras todavía)
   resp_home <- GET(paste0(base_url, "default.php"), ua, server_config, timeout(60))
   
-  # Verificamos status
-  print(paste("   -> Status Code:", status_code(resp_home)))
+  print(paste("Status Code:", status_code(resp_home)))
   
-  html_home <- content(resp_home, "text", encoding = "UTF-8")
-  print(paste("   -> Descarga finalizada. Tamaño:", nchar(html_home), "caracteres."))
+  # Verificamos si descargó algo (bytes)
+  contenido_raw <- content(resp_home, "raw")
+  print(paste("Bytes descargados:", length(contenido_raw)))
+  
+  if(length(contenido_raw) < 100) stop("El servidor envió una respuesta vacía (posible bloqueo silencioso).")
 
-  # --- EL MOMENTO DE LA VERDAD: ¿QUÉ DESCARGAMOS? ---
-  print("--- VISTA PREVIA DEL HTML (PRIMEROS 1000 CARACTERES) ---")
-  print(substr(html_home, 1, 1000))
-  print("--------------------------------------------------------")
+  # 2. Intentamos convertir a texto (Probando ISO-8859-1 primero, que es típico de gobierno)
+  html_home <- tryCatch({
+    content(resp_home, "text", encoding = "ISO-8859-1")
+  }, error = function(e) {
+    # Si falla, intentamos UTF-8
+    content(resp_home, "text", encoding = "UTF-8") 
+  })
   
-  # Búsqueda del JS
-  # Buscamos patrones típicos del mapa de la CDMX
+  if(is.na(html_home)) stop("No se pudo decodificar el texto (sigue saliendo NA)")
+  
+  print("--- VISTA PREVIA HTML (Ya legible) ---")
+  print(substr(html_home, 1, 500))
+  print("------------------------------------")
+
+  # 3. Buscamos el JS
+  # Buscamos 'paths...js' o cualquier JS en carpeta 'js/'
   ruta_relativa <- str_extract(html_home, "src=['\"]([^'\"]*paths[^'\"]*\\.js)['\"]")
+  if(is.na(ruta_relativa)) ruta_relativa <- str_extract(html_home, "src=['\"](js/[^'\"]+\\.js)['\"]")
   
   if(is.na(ruta_relativa)) {
-      print("   -> No encontré 'paths...js'. Buscando cualquier JS en carpeta js/...")
-      ruta_relativa <- str_extract(html_home, "js/[a-zA-Z0-9_.-]+\\.js")
+    # INTENTO DESESPERADO: Buscar js sin comillas o con espacios
+    ruta_relativa <- str_extract(html_home, "js/[a-zA-Z0-9_.-]+\\.js")
   }
+
+  if(is.na(ruta_relativa)) stop("No encuentro el archivo JS en el HTML legible.")
   
-  if(is.na(ruta_relativa)) {
-    # Si falla, fallamos a propósito para ver el log
-    stop("NO SE ENCONTRÓ EL ARCHIVO JS. REVISA LA VISTA PREVIA DEL HTML ARRIBA.")
-  }
-  
-  # Limpieza y descarga del JS
+  # Limpiamos ruta
   ruta_relativa <- str_remove_all(ruta_relativa, "src=|['\"]")
   url_js <- paste0(base_url, ruta_relativa)
-  print(paste("2. Archivo JS detectado:", url_js))
+  print(paste("JS Encontrado:", url_js))
   
+  # 4. Descargamos el JS (También forzando encoding)
   resp_js <- GET(url_js, ua, server_config, timeout(60))
-  js_texto <- content(resp_js, "text", encoding = "UTF-8")
+  js_texto <- content(resp_js, "text", encoding = "ISO-8859-1")
   
-  # Extracción de datos
+  if(is.na(js_texto)) js_texto <- content(resp_js, "text", encoding = "UTF-8")
+
+  # 5. Parseo final
   bloques <- unlist(str_split(js_texto, "zona\\d+:\\s*\\{"))
   lista_datos <- list()
   
