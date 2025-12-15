@@ -2,8 +2,8 @@ name: Actualizar Datos Aire CDMX
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Se ejecuta cada hora (minuto 0)
-  workflow_dispatch:      # Permite ejecutarlo manualmente con un botón para probar
+    - cron: '*/10 * * * *'  # Ejecutar cada 15 min (más seguro para evitar errores)
+  workflow_dispatch:      # Botón manual
 
 jobs:
   import-data:
@@ -19,16 +19,19 @@ jobs:
         with:
           r-version: 'release'
 
-      - name: Instalar librerías
+      # --- PASO NUEVO: INSTALAR DRIVERS DE LINUX ---
+      - name: Instalar dependencias de sistema (Linux)
         run: |
-          install.packages(c("httr", "stringr", "dplyr", "readr"))
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+
+      - name: Instalar librerías de R
+        run: |
+          install.packages(c("httr", "stringr", "dplyr", "readr"), repos = "https://cloud.r-project.org")
         shell: Rscript {0}
 
-      - name: Ver archivos (Debug)
-        run: ls -R
-
       - name: Correr script de scraping
-        run: Rscript script.R
+        run: Rscript script.R  # Asegúrate que tu archivo se llame script.R
 
       - name: Guardar cambios (Commit & Push)
         run: |
