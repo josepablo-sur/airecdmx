@@ -6,45 +6,52 @@ library(readr)
 # URL del gobierno
 base_url <- "https://www.aire.cdmx.gob.mx/"
 
-# Header falso
+# Header falso (User Agent)
 ua <- user_agent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36")
 
-# --- CONFIGURACIÓN DE SEGURIDAD PARA SERVIDORES VIEJOS ---
-# Esto baja el nivel de seguridad de OpenSSL para aceptar llaves "dh key too small"
-# Es necesario para aire.cdmx.gob.mx
-old_server_config <- config(
-  ssl_verifypeer = 0, 
-  ssl_verifyhost = 0,
-  ssl_cipher_list = "DEFAULT:@SECLEVEL=1"
-)
+# Configuración SSL básica (Al usar Ubuntu 20.04, ya no necesitamos la config compleja de ciphers)
+server_config <- config(ssl_verifypeer = 0, ssl_verifyhost = 0)
 
 tryCatch({
-  print("Iniciando conexión con seguridad reducida...")
+  print("1. Descargando página principal...")
   
-  # 1. Descargar Home
-  resp_home <- GET(paste0(base_url, "default.php"), ua, old_server_config, timeout(60))
+  resp_home <- GET(paste0(base_url, "default.php"), ua, server_config, timeout(60))
   
-  # Chequeo de status
   if(status_code(resp_home) != 200) stop(paste("Error Status Home:", status_code(resp_home)))
   
   html_home <- content(resp_home, "text", encoding = "UTF-8")
-  
-  # 2. Buscar JS
+  print(paste("   -> Descarga correcta. Tamaño:", nchar(html_home), "caracteres."))
+
+  # --- DEBUG: IMPRIMIR LOS PRIMEROS 500 CARACTERES ---
+  # Esto nos dirá si es una página de bloqueo o la real
+  print("   -> VISTA PREVIA DEL HTML:")
+  print(substr(html_home, 1, 500))
+  # ---------------------------------------------------
+
+  # 2. Buscar JS (Búsqueda ampliada)
+  # Buscamos primero 'paths', si no, buscamos cualquier JS en la carpeta js/
   ruta_relativa <- str_extract(html_home, "src=['\"]([^'\"]*paths[^'\"]*\\.js)['\"]")
-  if(is.na(ruta_relativa)) ruta_relativa <- str_extract(html_home, "src=['\"](js/[^'\"]+\\.js)['\"]")
   
-  if(is.na(ruta_relativa)) stop("No se encontró el archivo JS en el HTML")
+  if(is.na(ruta_relativa)) {
+      print("   -> No se encontró 'paths'. Buscando alternativas...")
+      # Intentamos encontrar cualquier referencia a js/
+      ruta_relativa <- str_extract(html_home, "js/[a-zA-Z0-9_.-]+\\.js")
+  }
   
-  url_js <- paste0(base_url, str_remove_all(ruta_relativa, "src=|['\"]"))
-  print(paste("JS encontrado:", url_js))
+  if(is.na(ruta_relativa)) stop("No se encontró ningún archivo JS válido en el HTML")
+  
+  # Limpieza de la ruta
+  ruta_relativa <- str_remove_all(ruta_relativa, "src=|['\"]")
+  url_js <- paste0(base_url, ruta_relativa)
+  print(paste("2. JS Encontrado:", url_js))
   
   # 3. Descargar JS
-  resp_js <- GET(url_js, ua, old_server_config, timeout(60))
-  if(status_code(resp_js) != 200) stop("Error descargando JS")
+  resp_js <- GET(url_js, ua, server_config, timeout(60))
+  if(status_code(resp_js) != 200) stop("Error descargando archivo JS")
   
   js_texto <- content(resp_js, "text", encoding = "UTF-8")
   
-  # 4. Parsear
+  # 4. Parsear Datos
   bloques <- unlist(str_split(js_texto, "zona\\d+:\\s*\\{"))
   lista_datos <- list()
   
@@ -59,29 +66,19 @@ tryCatch({
           str_replace_all('"\\s*\\+\"\\s*\\\\n\\s*\"\\s*\\+\"\\s*', " | ") %>% 
           str_remove_all('[\\\"\\+]') %>% 
           trimws()
-        
         color_final <- if(!is.na(fill)) paste0(fill, "FF") else "#999999FF"
-        
-        lista_datos[[length(lista_datos)+1]] <- data.frame(
-          slug = slug,
-          color_hex = color_final,
-          info = clean_txt,
-          stringsAsFactors = FALSE
-        )
+        lista_datos[[length(lista_datos)+1]] <- data.frame(slug = slug, color_hex = color_final, info = clean_txt, stringsAsFactors = FALSE)
       }
     }
   }
   
-  if(length(lista_datos) == 0) stop("No se extrajeron datos (lista vacía)")
+  if(length(lista_datos) == 0) stop("El JS se descargó pero no contenía datos de zonas.")
   
   df_final <- bind_rows(lista_datos)
-  
-  # 5. Guardar CSV
   write_csv(df_final, "datos_aire.csv")
-  print("¡ÉXITO! Archivo datos_aire.csv generado correctamente.")
+  print("¡ÉXITO TOTAL! CSV generado.")
   
 }, error = function(e) {
   print(paste("ERROR CRÍTICO:", e$message))
-  # Hacemos que el script falle para que GitHub nos avise en rojo
   quit(status = 1)
 })
