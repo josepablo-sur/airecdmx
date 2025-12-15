@@ -24,8 +24,11 @@ jobs:
           install.packages(c("httr", "stringr", "dplyr", "readr"))
         shell: Rscript {0}
 
+      - name: Ver archivos (Debug)
+        run: ls -R
+
       - name: Correr script de scraping
-        run: Rscript actualizar_datos.R
+        run: Rscript script.R
 
       - name: Guardar cambios (Commit & Push)
         run: |
