@@ -2,23 +2,35 @@ name: Actualizar Datos Aire CDMX
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Ejecutar cada 15 min
-  workflow_dispatch:      # Botón manual
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
 
 jobs:
   import-data:
-    # --- EL CAMBIO CLAVE: USAR LINUX VERSIÓN 2020 ---
-    # Esta versión no tiene los bloqueos de seguridad estrictos de OpenSSL 3.0
-    runs-on: ubuntu-20.04
-    
+    runs-on: ubuntu-latest  # Rápido, sin esperas
     permissions:
       contents: write
-      
     steps:
       - name: Checkout del código
         uses: actions/checkout@v3
 
-      - name: Instalar dependencias de sistema (Linux)
+      # --- LA SOLUCIÓN MAESTRA ---
+      # Creamos un archivo de configuración "inseguro" manualmente
+      - name: Crear Configuración SSL Permisiva
+        run: |
+          cat <<EOF > openssl_unsafe.cnf
+          openssl_conf = openssl_init
+          [openssl_init]
+          ssl_conf = ssl_sect
+          [ssl_sect]
+          system_default = system_default_sect
+          [system_default_sect]
+          CipherString = DEFAULT@SECLEVEL=1
+          EOF
+          # Forzamos al sistema a leer ESTE archivo
+          echo "OPENSSL_CONF=$PWD/openssl_unsafe.cnf" >> $GITHUB_ENV
+
+      - name: Instalar dependencias de sistema
         run: |
           sudo apt-get update
           sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
@@ -29,7 +41,7 @@ jobs:
           r-version: 'release'
 
       - name: Instalar librerías de R
-        # Instalamos versiones binarias compiladas para ir más rápido
+        # Sin caché por ahora para asegurar instalación limpia
         run: |
           install.packages(c("httr", "stringr", "dplyr", "readr"), repos = "https://cloud.r-project.org")
         shell: Rscript {0}
@@ -42,5 +54,5 @@ jobs:
           git config --local user.name "GitHub Actions Bot"
           git config --local user.email "actions@github.com"
           git add datos_aire.csv
-          git commit -m "Actualización automática de datos aire" || echo "Sin cambios para commitear"
+          git commit -m "Actualización automática" || echo "Sin cambios"
           git push
