@@ -10,13 +10,13 @@ CAM,#ff7e00FF,CAM-Camarones | MALA  | ALTO  | O3 |
 HGM,#ff7e00FF,HGM-Hospital General de M\u00E9xico | MALA  | ALTO  | O3 |
 MER,#ff7e00FF,MER-Merced | MALA  | ALTO  | O3 |
 FAC,#ffff00FF,FAC-FES Acatl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
-CUA,#ffff00FF,CUA-Cuajimalpa | ACEPTABLE  | MODERADO  | O3 |
+CUA,#ff7e00FF,CUA-Cuajimalpa | MALA  | ALTO  | O3 |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
 PED,#ff7e00FF,PED-Pedregal | MALA  | ALTO  | O3 |
 TAH,#ffffffFF,TAH-Tl\u00E1huac | SIN DATOS O EN MANTENIMIENTO  |  |  |
-UAX,#ffff00FF,"UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
+UAX,#ffff00FF,UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3 |
 UIZ,#ffff00FF,"UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
-NEZ,#ffff00FF,NEZ-Nezahuac\u00F3yotl | ACEPTABLE  | MODERADO  | O3 |
+NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | O3 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#ffffffFF,LLA-Los Laureles | SIN DATOS O EN MANTENIMIENTO  |  |  |
