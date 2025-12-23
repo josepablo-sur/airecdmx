@@ -15,7 +15,7 @@ SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
 PED,#ffff00FF,"PED-Pedregal | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 TAH,#ffffffFF,TAH-Tl\u00E1huac | SIN DATOS O EN MANTENIMIENTO  |  |  |
 UAX,#ffff00FF,"UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
-UIZ,#ffff00FF,UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | PM2.5 |
+UIZ,#00e400FF,"UIZ-UAM Iztapalapa | BUENA  | BAJO  | SO2,CO |"
 NEZ,#ffff00FF,"NEZ-Nezahuac\u00F3yotl | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
