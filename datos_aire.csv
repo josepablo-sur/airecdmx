@@ -1,5 +1,5 @@
 slug,color_hex,info
-CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | PM10 |
+CUT,#ff7e00FF,CUT-Cuautitl\u00E1n | MALA  | ALTO  | PM10 |
 VIF,#ff7e00FF,VIF-Villa de las Flores | MALA  | ALTO  | PM10 |
 XAL,#00e400FF,"XAL-Xalostoc | BUENA  | BAJO  | O3,SO2,CO |"
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2,CO |"
