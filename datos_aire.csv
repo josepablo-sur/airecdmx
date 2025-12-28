@@ -2,12 +2,12 @@ slug,color_hex,info
 CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 VIF,#ffff00FF,VIF-Villa de las Flores | ACEPTABLE  | MODERADO  | O3 |
 XAL,#ffff00FF,XAL-Xalostoc | ACEPTABLE  | MODERADO  | O3 |
-LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2,CO |"
+LPR,#ffff00FF,LPR-La Presa | ACEPTABLE  | MODERADO  | O3 |
 TLI,#ffff00FF,TLI-Tultitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 ATI,#ffff00FF,ATI-Atizap\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 TLA,#ffff00FF,"TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
-CAM,#ffff00FF,"CAM-Camarones | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
-HGM,#ffff00FF,HGM-Hospital General de M\u00E9xico | ACEPTABLE  | MODERADO  | O3 |
+CAM,#ff7e00FF,CAM-Camarones | MALA  | ALTO  | O3 |
+HGM,#ff7e00FF,HGM-Hospital General de M\u00E9xico | MALA  | ALTO  | O3 |
 MER,#ffff00FF,MER-Merced | ACEPTABLE  | MODERADO  | O3 |
 FAC,#ffff00FF,FAC-FES Acatl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 CUA,#ffff00FF,CUA-Cuajimalpa | ACEPTABLE  | MODERADO  | O3 |
@@ -25,7 +25,7 @@ CCA,#ffff00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | ACEPTABLE  | MODERAD
 AJM,#ffff00FF,AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | O3 |
 MGH,#ffff00FF,MGH-Miguel Hidalgo | ACEPTABLE  | MODERADO  | O3 |
 BJU,#ffff00FF,"BJU-Benito Ju\u00e1rez | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
-GAM,#ffff00FF,"GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
+GAM,#ffff00FF,GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | O3 |
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#ffff00FF,"SAC-Santiago Acahualtepec | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
