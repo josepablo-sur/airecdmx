@@ -1,8 +1,8 @@
 slug,color_hex,info
-CUT,#ffff00FF,"CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | O3,PM10 |"
-VIF,#ffff00FF,VIF-Villa de las Flores | ACEPTABLE  | MODERADO  | O3 |
-XAL,#ff7e00FF,XAL-Xalostoc | MALA  | ALTO  | O3 |
-LPR,#ff7e00FF,LPR-La Presa | MALA  | ALTO  | O3 |
+CUT,#00e400FF,"CUT-Cuautitl\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
+VIF,#00e400FF,"VIF-Villa de las Flores | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
+XAL,#ffff00FF,XAL-Xalostoc | ACEPTABLE  | MODERADO  | O3 |
+LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2 |"
 TLI,#ffff00FF,TLI-Tultitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 ATI,#ffff00FF,ATI-Atizap\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 TLA,#ffff00FF,TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | O3 |
@@ -21,9 +21,9 @@ CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#00e400FF,LLA-Los Laureles | BUENA  | BAJO  | O3 |
 SAG,#ffff00FF,SAG-San Agust\u00EDn | ACEPTABLE  | MODERADO  | O3 |
-CCA,#ffff00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | ACEPTABLE  | MODERADO  | O3 |
+CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | O3 |
 AJM,#ffff00FF,"AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
-MGH,#ff7e00FF,MGH-Miguel Hidalgo | MALA  | ALTO  | O3 |
+MGH,#ffff00FF,MGH-Miguel Hidalgo | ACEPTABLE  | MODERADO  | O3 |
 BJU,#ff7e00FF,BJU-Benito Ju\u00e1rez | MALA  | ALTO  | O3 |
 GAM,#ff7e00FF,GAM-Gustavo A. Madero | MALA  | ALTO  | O3 |
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
