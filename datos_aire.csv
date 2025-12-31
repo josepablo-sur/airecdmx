@@ -22,7 +22,7 @@ IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#ffffffFF,LLA-Los Laureles | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAG,#00e400FF,"SAG-San Agust\u00EDn | BUENA  | BAJO  | SO2,CO |"
 CCA,#00e400FF,"CCA-Centro de Ciencias de la Atm\u00F3sfera | BUENA  | BAJO  | SO2,CO,PM2.5 |"
-AJM,#00e400FF,"AJM-Ajusco Medio | BUENA  | BAJO  | SO2,CO,PM10,PM2.5 |"
+AJM,#00e400FF,"AJM-Ajusco Medio | BUENA  | BAJO  | CO,PM10,PM2.5 |"
 MGH,#00e400FF,"MGH-Miguel Hidalgo | BUENA  | BAJO  | SO2,CO |"
 BJU,#00e400FF,"BJU-Benito Ju\u00e1rez | BUENA  | BAJO  | SO2,CO,PM10,PM2.5 |"
 GAM,#00e400FF,"GAM-Gustavo A. Madero | BUENA  | BAJO  | PM10,PM2.5 |"
