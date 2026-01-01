@@ -2,11 +2,11 @@ slug,color_hex,info
 CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 VIF,#ffff00FF,VIF-Villa de las Flores | ACEPTABLE  | MODERADO  | O3 |
 XAL,#ffff00FF,XAL-Xalostoc | ACEPTABLE  | MODERADO  | O3 |
-LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2 |"
+LPR,#ffff00FF,LPR-La Presa | ACEPTABLE  | MODERADO  | O3 |
 TLI,#ffff00FF,TLI-Tultitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 ATI,#ffff00FF,ATI-Atizap\u00E1n | ACEPTABLE  | MODERADO  | O3 |
-TLA,#ff7e00FF,TLA-Tlalnepantla | MALA  | ALTO  | PM2.5 |
-CAM,#ff7e00FF,CAM-Camarones | MALA  | ALTO  | PM2.5 |
+TLA,#ffff00FF,"TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
+CAM,#ffff00FF,"CAM-Camarones | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 HGM,#ffff00FF,HGM-Hospital General de M\u00E9xico | ACEPTABLE  | MODERADO  | O3 |
 MER,#ff7e00FF,MER-Merced | MALA  | ALTO  | PM2.5 |
 FAC,#ffff00FF,FAC-FES Acatl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
@@ -16,16 +16,16 @@ PED,#ff7e00FF,PED-Pedregal | MALA  | ALTO  | PM2.5 |
 TAH,#ffffffFF,TAH-Tl\u00E1huac | SIN DATOS O EN MANTENIMIENTO  |  |  |
 UAX,#ff7e00FF,UAX-UAM Xochimilco | MALA  | ALTO  | PM2.5 |
 UIZ,#ff7e00FF,"UIZ-UAM Iztapalapa | MALA  | ALTO  | PM10,PM2.5 |"
-NEZ,#ff7e00FF,"NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | PM10,PM2.5 |"
+NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | PM2.5 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#ffff00FF,LLA-Los Laureles | ACEPTABLE  | MODERADO  | O3 |
-SAG,#00e400FF,"SAG-San Agust\u00EDn | BUENA  | BAJO  | SO2,CO |"
+SAG,#ffff00FF,SAG-San Agust\u00EDn | ACEPTABLE  | MODERADO  | O3 |
 CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | PM2.5 |
 AJM,#ff7e00FF,"AJM-Ajusco Medio | MALA  | ALTO  | O3,PM2.5 |"
 MGH,#ffff00FF,MGH-Miguel Hidalgo | ACEPTABLE  | MODERADO  | O3 |
-BJU,#ff7e00FF,"BJU-Benito Ju\u00e1rez | MALA  | ALTO  | PM10,PM2.5 |"
-GAM,#ff7e00FF,"GAM-Gustavo A. Madero | MALA  | ALTO  | PM10,PM2.5 |"
+BJU,#ff7e00FF,BJU-Benito Ju\u00e1rez | MALA  | ALTO  | PM2.5 |
+GAM,#ff7e00FF,GAM-Gustavo A. Madero | MALA  | ALTO  | PM2.5 |
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#ff7e00FF,SAC-Santiago Acahualtepec | MALA  | ALTO  | PM2.5 |
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
