@@ -9,14 +9,14 @@ TLA,#ff7e00FF,TLA-Tlalnepantla | MALA  | ALTO  | PM10 |
 CAM,#ffff00FF,"CAM-Camarones | ACEPTABLE  | MODERADO  | NO2,PM2.5 |"
 HGM,#ffff00FF,HGM-Hospital General de M\u00E9xico | ACEPTABLE  | MODERADO  | NO2 |
 MER,#ffff00FF,"MER-Merced | ACEPTABLE  | MODERADO  | NO2,PM2.5 |"
-FAC,#ff7e00FF,FAC-FES Acatl\u00E1n | MALA  | ALTO  | PM10 |
+FAC,#ffff00FF,FAC-FES Acatl\u00E1n | ACEPTABLE  | MODERADO  | PM10 |
 CUA,#00e400FF,"CUA-Cuajimalpa | BUENA  | BAJO  | O3,NO2,SO2,PM10 |"
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
 PED,#ffff00FF,PED-Pedregal | ACEPTABLE  | MODERADO  | PM2.5 |
 TAH,#ffffffFF,TAH-Tl\u00E1huac | SIN DATOS O EN MANTENIMIENTO  |  |  |
 UAX,#00e400FF,"UAX-UAM Xochimilco | BUENA  | BAJO  | O3,SO2,CO |"
-UIZ,#ff7e00FF,UIZ-UAM Iztapalapa | MALA  | ALTO  | PM10 |
-NEZ,#00e400FF,"NEZ-Nezahuac\u00F3yotl | BUENA  | BAJO  | O3,SO2,CO |"
+UIZ,#ff7e00FF,"UIZ-UAM Iztapalapa | MALA  | ALTO  | PM10,PM2.5 |"
+NEZ,#00e400FF,"NEZ-Nezahuac\u00F3yotl | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#00e400FF,LLA-Los Laureles | BUENA  | BAJO  | O3 |
@@ -25,7 +25,7 @@ CCA,#ffff00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | ACEPTABLE  | MODERAD
 AJM,#ffff00FF,AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | PM2.5 |
 MGH,#00e400FF,"MGH-Miguel Hidalgo | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 BJU,#ffff00FF,"BJU-Benito Ju\u00e1rez | ACEPTABLE  | MODERADO  | NO2,PM2.5 |"
-GAM,#ffff00FF,GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | PM2.5 |
+GAM,#ffff00FF,"GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | NO2,PM2.5 |"
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#ffff00FF,SAC-Santiago Acahualtepec | ACEPTABLE  | MODERADO  | PM2.5 |
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
