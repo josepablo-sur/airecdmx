@@ -1,12 +1,12 @@
 slug,color_hex,info
-CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
-VIF,#ffff00FF,VIF-Villa de las Flores | ACEPTABLE  | MODERADO  | O3 |
+CUT,#ff7e00FF,CUT-Cuautitl\u00E1n | MALA  | ALTO  | O3 |
+VIF,#ff7e00FF,VIF-Villa de las Flores | MALA  | ALTO  | O3 |
 XAL,#ff7e00FF,XAL-Xalostoc | MALA  | ALTO  | O3 |
 LPR,#ffff00FF,LPR-La Presa | ACEPTABLE  | MODERADO  | O3 |
 TLI,#ff7e00FF,TLI-Tultitl\u00E1n | MALA  | ALTO  | O3 |
 ATI,#ff7e00FF,ATI-Atizap\u00E1n | MALA  | ALTO  | O3 |
 TLA,#ff7e00FF,TLA-Tlalnepantla | MALA  | ALTO  | O3 |
-CAM,#ff7e00FF,CAM-Camarones | MALA  | ALTO  | O3 |
+CAM,#ffff00FF,CAM-Camarones | ACEPTABLE  | MODERADO  | PM2.5 |
 HGM,#ff7e00FF,HGM-Hospital General de M\u00E9xico | MALA  | ALTO  | O3 |
 MER,#ff7e00FF,MER-Merced | MALA  | ALTO  | O3 |
 FAC,#ff7e00FF,FAC-FES Acatl\u00E1n | MALA  | ALTO  | O3 |
@@ -15,7 +15,7 @@ SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
 PED,#ff7e00FF,PED-Pedregal | MALA  | ALTO  | O3 |
 TAH,#ffffffFF,TAH-Tl\u00E1huac | SIN DATOS O EN MANTENIMIENTO  |  |  |
 UAX,#ff7e00FF,UAX-UAM Xochimilco | MALA  | ALTO  | O3 |
-UIZ,#ffff00FF,"UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
+UIZ,#ff7e00FF,UIZ-UAM Iztapalapa | MALA  | ALTO  | O3 |
 NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | O3 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
@@ -24,7 +24,7 @@ SAG,#ff7e00FF,SAG-San Agust\u00EDn | MALA  | ALTO  | O3 |
 CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | O3 |
 AJM,#ff7e00FF,AJM-Ajusco Medio | MALA  | ALTO  | O3 |
 MGH,#ff7e00FF,MGH-Miguel Hidalgo | MALA  | ALTO  | O3 |
-BJU,#ff7e00FF,"BJU-Benito Ju\u00e1rez | MALA  | ALTO  | O3,PM2.5 |"
+BJU,#ff7e00FF,BJU-Benito Ju\u00e1rez | MALA  | ALTO  | O3 |
 GAM,#ff7e00FF,GAM-Gustavo A. Madero | MALA  | ALTO  | O3 |
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#ff7e00FF,SAC-Santiago Acahualtepec | MALA  | ALTO  | O3 |
