@@ -1,28 +1,28 @@
 slug,color_hex,info
-CUT,#ff7e00FF,CUT-Cuautitl\u00E1n | MALA  | ALTO  | PM10 |
+CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 VIF,#ffff00FF,VIF-Villa de las Flores | ACEPTABLE  | MODERADO  | O3 |
-XAL,#00e400FF,"XAL-Xalostoc | BUENA  | BAJO  | NO2,SO2,CO |"
+XAL,#00e400FF,"XAL-Xalostoc | BUENA  | BAJO  | NO2,SO2 |"
 LPR,#ff7e00FF,LPR-La Presa | MALA  | ALTO  | O3 |
 TLI,#ffff00FF,TLI-Tultitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 ATI,#ffff00FF,ATI-Atizap\u00E1n | ACEPTABLE  | MODERADO  | O3 |
-TLA,#ff7e00FF,TLA-Tlalnepantla | MALA  | ALTO  | PM10 |
+TLA,#ffff00FF,"TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | O3,PM10,PM2.5 |"
 CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
 HGM,#ff7e00FF,HGM-Hospital General de M\u00E9xico | MALA  | ALTO  | O3 |
 MER,#ff7e00FF,"MER-Merced | MALA  | ALTO  | O3,PM2.5 |"
 FAC,#ffff00FF,FAC-FES Acatl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 CUA,#ff7e00FF,CUA-Cuajimalpa | MALA  | ALTO  | O3 |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#ff7e00FF,PED-Pedregal | MALA  | ALTO  | O3 |
+PED,#ff7e00FF,"PED-Pedregal | MALA  | ALTO  | O3,PM2.5 |"
 TAH,#ffffffFF,TAH-Tl\u00E1huac | SIN DATOS O EN MANTENIMIENTO  |  |  |
 UAX,#ff7e00FF,UAX-UAM Xochimilco | MALA  | ALTO  | O3 |
 UIZ,#ffff00FF,UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | O3 |
-NEZ,#ff7e00FF,"NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | O3,PM2.5 |"
+NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | O3 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#ffff00FF,LLA-Los Laureles | ACEPTABLE  | MODERADO  | O3 |
-SAG,#ffff00FF,SAG-San Agust\u00EDn | ACEPTABLE  | MODERADO  | O3 |
+SAG,#ff7e00FF,SAG-San Agust\u00EDn | MALA  | ALTO  | O3 |
 CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | O3 |
-AJM,#ff7e00FF,AJM-Ajusco Medio | MALA  | ALTO  | O3 |
+AJM,#ff7e00FF,"AJM-Ajusco Medio | MALA  | ALTO  | O3,PM2.5 |"
 MGH,#ff7e00FF,MGH-Miguel Hidalgo | MALA  | ALTO  | O3 |
 BJU,#ff7e00FF,"BJU-Benito Ju\u00e1rez | MALA  | ALTO  | O3,PM10,PM2.5 |"
 GAM,#ff7e00FF,"GAM-Gustavo A. Madero | MALA  | ALTO  | O3,PM10,PM2.5 |"
