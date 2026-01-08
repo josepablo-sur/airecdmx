@@ -1,26 +1,26 @@
 slug,color_hex,info
-CUT,#ff7e00FF,CUT-Cuautitl\u00E1n | MALA  | ALTO  | PM10 |
+CUT,#ff7e00FF,"CUT-Cuautitl\u00E1n | MALA  | ALTO  | O3,PM10 |"
 VIF,#ff7e00FF,VIF-Villa de las Flores | MALA  | ALTO  | PM10 |
 XAL,#00e400FF,XAL-Xalostoc | BUENA  | BAJO  | SO2 |
-LPR,#ffff00FF,LPR-La Presa | ACEPTABLE  | MODERADO  | O3 |
-TLI,#ff7e00FF,TLI-Tultitl\u00E1n | MALA  | ALTO  | PM10 |
-ATI,#ff7e00FF,ATI-Atizap\u00E1n | MALA  | ALTO  | PM10 |
-TLA,#ff7e00FF,"TLA-Tlalnepantla | MALA  | ALTO  | PM10,PM2.5 |"
+LPR,#ff7e00FF,LPR-La Presa | MALA  | ALTO  | O3 |
+TLI,#ff7e00FF,"TLI-Tultitl\u00E1n | MALA  | ALTO  | O3,PM10 |"
+ATI,#ff7e00FF,"ATI-Atizap\u00E1n | MALA  | ALTO  | O3,PM10 |"
+TLA,#ff7e00FF,"TLA-Tlalnepantla | MALA  | ALTO  | O3,PM10,PM2.5 |"
 CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
-HGM,#ffff00FF,HGM-Hospital General de M\u00E9xico | ACEPTABLE  | MODERADO  | O3 |
-MER,#ff7e00FF,MER-Merced | MALA  | ALTO  | PM2.5 |
-FAC,#ff7e00FF,FAC-FES Acatl\u00E1n | MALA  | ALTO  | PM10 |
+HGM,#ff7e00FF,HGM-Hospital General de M\u00E9xico | MALA  | ALTO  | O3 |
+MER,#ff7e00FF,"MER-Merced | MALA  | ALTO  | O3,PM2.5 |"
+FAC,#ff7e00FF,"FAC-FES Acatl\u00E1n | MALA  | ALTO  | O3,PM10 |"
 CUA,#ff7e00FF,CUA-Cuajimalpa | MALA  | ALTO  | O3 |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#ff7e00FF,PED-Pedregal | MALA  | ALTO  | O3 |
+PED,#ff7e00FF,"PED-Pedregal | MALA  | ALTO  | O3,PM2.5 |"
 TAH,#ffffffFF,TAH-Tl\u00E1huac | SIN DATOS O EN MANTENIMIENTO  |  |  |
 UAX,#ff7e00FF,"UAX-UAM Xochimilco | MALA  | ALTO  | O3,PM2.5 |"
-UIZ,#00e400FF,"UIZ-UAM Iztapalapa | BUENA  | BAJO  | SO2,CO |"
+UIZ,#00e400FF,UIZ-UAM Iztapalapa | BUENA  | BAJO  | SO2 |
 NEZ,#ff7e00FF,"NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | O3,PM10,PM2.5 |"
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#ffff00FF,LLA-Los Laureles | ACEPTABLE  | MODERADO  | O3 |
-SAG,#ffff00FF,SAG-San Agust\u00EDn | ACEPTABLE  | MODERADO  | O3 |
+SAG,#ff7e00FF,SAG-San Agust\u00EDn | MALA  | ALTO  | O3 |
 CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | O3 |
 AJM,#ff7e00FF,AJM-Ajusco Medio | MALA  | ALTO  | O3 |
 MGH,#ff7e00FF,MGH-Miguel Hidalgo | MALA  | ALTO  | O3 |
