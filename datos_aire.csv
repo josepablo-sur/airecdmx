@@ -15,7 +15,7 @@ SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
 PED,#00e400FF,"PED-Pedregal | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
 TAH,#ffffffFF,TAH-Tl\u00E1huac | SIN DATOS O EN MANTENIMIENTO  |  |  |
 UAX,#ffff00FF,UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | PM2.5 |
-UIZ,#ffff00FF,UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | NO2 |
+UIZ,#00e400FF,"UIZ-UAM Iztapalapa | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 NEZ,#00e400FF,"NEZ-Nezahuac\u00F3yotl | BUENA  | BAJO  | O3,SO2,CO |"
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
@@ -27,5 +27,5 @@ MGH,#00e400FF,"MGH-Miguel Hidalgo | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 BJU,#00e400FF,"BJU-Benito Ju\u00e1rez | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
 GAM,#ffff00FF,GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | PM2.5 |
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
-SAC,#ffff00FF,"SAC-Santiago Acahualtepec | ACEPTABLE  | MODERADO  | NO2,PM2.5 |"
+SAC,#ff7e00FF,SAC-Santiago Acahualtepec | MALA  | ALTO  | PM2.5 |
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
