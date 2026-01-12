@@ -24,7 +24,7 @@ SAG,#ffffffFF,SAG-San Agust\u00EDn | SIN DATOS O EN MANTENIMIENTO  |  |  |
 CCA,#00e400FF,"CCA-Centro de Ciencias de la Atm\u00F3sfera | BUENA  | BAJO  | SO2,PM2.5 |"
 AJM,#00e400FF,"AJM-Ajusco Medio | BUENA  | BAJO  | SO2,PM10,PM2.5 |"
 MGH,#00e400FF,MGH-Miguel Hidalgo | BUENA  | BAJO  | SO2 |
-BJU,#00e400FF,"BJU-Benito Ju\u00e1rez | BUENA  | BAJO  | SO2,PM10,PM2.5 |"
+BJU,#00e400FF,"BJU-Benito Ju\u00e1rez | BUENA  | BAJO  | PM10,PM2.5 |"
 GAM,#00e400FF,"GAM-Gustavo A. Madero | BUENA  | BAJO  | PM10,PM2.5 |"
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#00e400FF,"SAC-Santiago Acahualtepec | BUENA  | BAJO  | SO2,PM2.5 |"
