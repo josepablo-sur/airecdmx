@@ -1,6 +1,6 @@
 slug,color_hex,info
 CUT,#00e400FF,"CUT-Cuautitl\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
-VIF,#00e400FF,"VIF-Villa de las Flores | BUENA  | BAJO  | O3,NO2,CO,PM10 |"
+VIF,#ffff00FF,VIF-Villa de las Flores | ACEPTABLE  | MODERADO  | NO2 |
 XAL,#00e400FF,"XAL-Xalostoc | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2,CO |"
 TLI,#00e400FF,"TLI-Tultitl\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
