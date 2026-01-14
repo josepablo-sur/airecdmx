@@ -1,6 +1,6 @@
 slug,color_hex,info
-CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | PM10 |
-VIF,#ffff00FF,"VIF-Villa de las Flores | ACEPTABLE  | MODERADO  | NO2,PM10 |"
+CUT,#00e400FF,"CUT-Cuautitl\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
+VIF,#ffff00FF,VIF-Villa de las Flores | ACEPTABLE  | MODERADO  | PM10 |
 XAL,#00e400FF,"XAL-Xalostoc | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2,CO |"
 TLI,#00e400FF,"TLI-Tultitl\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
@@ -27,5 +27,5 @@ MGH,#00e400FF,"MGH-Miguel Hidalgo | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 BJU,#00e400FF,"BJU-Benito Ju\u00e1rez | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 GAM,#00e400FF,"GAM-Gustavo A. Madero | BUENA  | BAJO  | O3,NO2,PM10,PM2.5 |"
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
-SAC,#00e400FF,"SAC-Santiago Acahualtepec | BUENA  | BAJO  | O3,NO2,SO2,CO,PM2.5 |"
+SAC,#ffff00FF,SAC-Santiago Acahualtepec | ACEPTABLE  | MODERADO  | PM2.5 |
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
