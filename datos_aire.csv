@@ -16,7 +16,7 @@ PED,#00e400FF,PED-Pedregal | BUENA  | BAJO  | SO2 |
 TAH,#ffffffFF,TAH-Tl\u00E1huac | SIN DATOS O EN MANTENIMIENTO  |  |  |
 UAX,#00e400FF,"UAX-UAM Xochimilco | BUENA  | BAJO  | SO2,CO,PM2.5 |"
 UIZ,#00e400FF,"UIZ-UAM Iztapalapa | BUENA  | BAJO  | SO2,CO,PM10,PM2.5 |"
-NEZ,#00e400FF,"NEZ-Nezahuac\u00F3yotl | BUENA  | BAJO  | SO2,CO |"
+NEZ,#00e400FF,NEZ-Nezahuac\u00F3yotl | BUENA  | BAJO  | CO |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#ffffffFF,LLA-Los Laureles | SIN DATOS O EN MANTENIMIENTO  |  |  |
@@ -24,8 +24,8 @@ SAG,#00e400FF,"SAG-San Agust\u00EDn | BUENA  | BAJO  | SO2,CO |"
 CCA,#00e400FF,"CCA-Centro de Ciencias de la Atm\u00F3sfera | BUENA  | BAJO  | SO2,CO,PM2.5 |"
 AJM,#00e400FF,"AJM-Ajusco Medio | BUENA  | BAJO  | SO2,CO |"
 MGH,#00e400FF,"MGH-Miguel Hidalgo | BUENA  | BAJO  | SO2,CO |"
-BJU,#00e400FF,"BJU-Benito Ju\u00e1rez | BUENA  | BAJO  | CO,PM10,PM2.5 |"
+BJU,#00e400FF,"BJU-Benito Ju\u00e1rez | BUENA  | BAJO  | PM10,PM2.5 |"
 GAM,#00e400FF,"GAM-Gustavo A. Madero | BUENA  | BAJO  | PM10,PM2.5 |"
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
-SAC,#ffff00FF,SAC-Santiago Acahualtepec | ACEPTABLE  | MODERADO  | PM2.5 |
+SAC,#00e400FF,"SAC-Santiago Acahualtepec | BUENA  | BAJO  | SO2,CO,PM2.5 |"
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
