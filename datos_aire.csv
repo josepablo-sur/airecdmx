@@ -1,9 +1,9 @@
 slug,color_hex,info
 CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | PM10 |
-VIF,#ffff00FF,VIF-Villa de las Flores | ACEPTABLE  | MODERADO  | PM10 |
+VIF,#00e400FF,"VIF-Villa de las Flores | BUENA  | BAJO  | O3,SO2,CO,PM10 |"
 XAL,#00e400FF,"XAL-Xalostoc | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2,CO |"
-TLI,#ffff00FF,TLI-Tultitl\u00E1n | ACEPTABLE  | MODERADO  | PM10 |
+TLI,#00e400FF,"TLI-Tultitl\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,PM10 |"
 ATI,#00e400FF,"ATI-Atizap\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
 TLA,#ffff00FF,TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | PM2.5 |
 CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
