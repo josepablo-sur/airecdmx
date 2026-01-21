@@ -1,7 +1,7 @@
 slug,color_hex,info
 CUT,#ff7e00FF,CUT-Cuautitl\u00E1n | MALA  | ALTO  | PM10 |
 VIF,#ff7e00FF,VIF-Villa de las Flores | MALA  | ALTO  | PM10 |
-XAL,#ffff00FF,XAL-Xalostoc | ACEPTABLE  | MODERADO  | NO2 |
+XAL,#00e400FF,"XAL-Xalostoc | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2,CO |"
 TLI,#ff7e00FF,TLI-Tultitl\u00E1n | MALA  | ALTO  | PM10 |
 ATI,#ff7e00FF,ATI-Atizap\u00E1n | MALA  | ALTO  | PM10 |
@@ -15,7 +15,7 @@ SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
 PED,#ff7e00FF,"PED-Pedregal | MALA  | ALTO  | PM10,PM2.5 |"
 TAH,#ffffffFF,TAH-Tl\u00E1huac | SIN DATOS O EN MANTENIMIENTO  |  |  |
 UAX,#ff7e00FF,UAX-UAM Xochimilco | MALA  | ALTO  | PM2.5 |
-UIZ,#ff7e00FF,"UIZ-UAM Iztapalapa | MALA  | ALTO  | PM10,PM2.5 |"
+UIZ,#ff7e00FF,UIZ-UAM Iztapalapa | MALA  | ALTO  | PM2.5 |
 NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | PM2.5 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
