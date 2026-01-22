@@ -10,22 +10,22 @@ CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
 HGM,#ffff00FF,HGM-Hospital General de M\u00E9xico | ACEPTABLE  | MODERADO  | O3 |
 MER,#ffff00FF,MER-Merced | ACEPTABLE  | MODERADO  | O3 |
 FAC,#ffff00FF,FAC-FES Acatl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
-CUA,#00e400FF,"CUA-Cuajimalpa | BUENA  | BAJO  | O3,NO2,SO2,PM10 |"
+CUA,#ffff00FF,CUA-Cuajimalpa | ACEPTABLE  | MODERADO  | O3 |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#ffff00FF,"PED-Pedregal | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
+PED,#00e400FF,"PED-Pedregal | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
 TAH,#ffffffFF,TAH-Tl\u00E1huac | SIN DATOS O EN MANTENIMIENTO  |  |  |
-UAX,#ffff00FF,UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | PM2.5 |
-UIZ,#ffff00FF,"UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
-NEZ,#ffff00FF,NEZ-Nezahuac\u00F3yotl | ACEPTABLE  | MODERADO  | O3 |
+UAX,#00e400FF,"UAX-UAM Xochimilco | BUENA  | BAJO  | O3,NO2,SO2,CO,PM2.5 |"
+UIZ,#ffff00FF,UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | PM2.5 |
+NEZ,#00e400FF,"NEZ-Nezahuac\u00F3yotl | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#ffff00FF,LLA-Los Laureles | ACEPTABLE  | MODERADO  | O3 |
 SAG,#ffff00FF,SAG-San Agust\u00EDn | ACEPTABLE  | MODERADO  | O3 |
-CCA,#ffff00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | ACEPTABLE  | MODERADO  | O3 |
-AJM,#ffff00FF,AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | O3 |
+CCA,#00e400FF,"CCA-Centro de Ciencias de la Atm\u00F3sfera | BUENA  | BAJO  | O3,NO2,SO2,CO,PM2.5 |"
+AJM,#00e400FF,"AJM-Ajusco Medio | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
 MGH,#ffff00FF,MGH-Miguel Hidalgo | ACEPTABLE  | MODERADO  | O3 |
 BJU,#ffff00FF,"BJU-Benito Ju\u00e1rez | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 GAM,#ffff00FF,"GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
-SAC,#ffff00FF,SAC-Santiago Acahualtepec | ACEPTABLE  | MODERADO  | PM2.5 |
+SAC,#00e400FF,"SAC-Santiago Acahualtepec | BUENA  | BAJO  | O3,NO2,SO2,CO,PM2.5 |"
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
