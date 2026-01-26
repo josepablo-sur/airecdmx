@@ -1,8 +1,8 @@
 slug,color_hex,info
 CUT,#00e400FF,"CUT-Cuautitl\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
-VIF,#ff7e00FF,VIF-Villa de las Flores | MALA  | ALTO  | PM10 |
+VIF,#00e400FF,"VIF-Villa de las Flores | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
 XAL,#00e400FF,"XAL-Xalostoc | BUENA  | BAJO  | O3,NO2,SO2,CO |"
-LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2 |"
+LPR,#00e400FF,LPR-La Presa | BUENA  | BAJO  | O3 |
 TLI,#00e400FF,"TLI-Tultitl\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
 ATI,#00e400FF,"ATI-Atizap\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
 TLA,#00e400FF,"TLA-Tlalnepantla | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
@@ -12,15 +12,15 @@ MER,#00e400FF,"MER-Merced | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
 FAC,#00e400FF,"FAC-FES Acatl\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
 CUA,#00e400FF,"CUA-Cuajimalpa | BUENA  | BAJO  | O3,NO2,SO2,PM10 |"
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#00e400FF,"PED-Pedregal | BUENA  | BAJO  | O3,NO2,SO2,PM10,PM2.5 |"
-TAH,#ffff00FF,TAH-Tl\u00E1huac | ACEPTABLE  | MODERADO  | PM10 |
+PED,#00e400FF,"PED-Pedregal | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
+TAH,#00e400FF,"TAH-Tl\u00E1huac | BUENA  | BAJO  | O3,NO2,PM10 |"
 UAX,#00e400FF,"UAX-UAM Xochimilco | BUENA  | BAJO  | O3,NO2,SO2,CO,PM2.5 |"
 UIZ,#00e400FF,"UIZ-UAM Iztapalapa | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
-NEZ,#00e400FF,"NEZ-Nezahuac\u00F3yotl | BUENA  | BAJO  | O3,NO2,SO2,CO |"
+NEZ,#00e400FF,"NEZ-Nezahuac\u00F3yotl | BUENA  | BAJO  | O3,SO2,CO |"
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#00e400FF,LLA-Los Laureles | BUENA  | BAJO  | O3 |
-SAG,#00e400FF,"SAG-San Agust\u00EDn | BUENA  | BAJO  | O3,NO2,SO2,CO |"
+SAG,#00e400FF,"SAG-San Agust\u00EDn | BUENA  | BAJO  | SO2,CO |"
 CCA,#00e400FF,"CCA-Centro de Ciencias de la Atm\u00F3sfera | BUENA  | BAJO  | O3,NO2,SO2,CO,PM2.5 |"
 AJM,#00e400FF,"AJM-Ajusco Medio | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
 MGH,#00e400FF,"MGH-Miguel Hidalgo | BUENA  | BAJO  | O3,NO2,SO2,CO |"
