@@ -12,7 +12,7 @@ MER,#ff7e00FF,MER-Merced | MALA  | ALTO  | PM10 |
 FAC,#00e400FF,"FAC-FES Acatl\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,PM10 |"
 CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#00e400FF,"PED-Pedregal | BUENA  | BAJO  | SO2,PM10,PM2.5 |"
+PED,#00e400FF,"PED-Pedregal | BUENA  | BAJO  | O3,NO2,SO2,PM10,PM2.5 |"
 TAH,#ff7e00FF,TAH-Tl\u00E1huac | MALA  | ALTO  | PM10 |
 UAX,#ff7e00FF,UAX-UAM Xochimilco | MALA  | ALTO  | PM2.5 |
 UIZ,#ff7e00FF,"UIZ-UAM Iztapalapa | MALA  | ALTO  | PM10,PM2.5 |"
@@ -24,7 +24,7 @@ SAG,#00e400FF,"SAG-San Agust\u00EDn | BUENA  | BAJO  | O3,NO2,SO2 |"
 CCA,#00e400FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | BUENA  | BAJO  | PM2.5 |
 AJM,#00e400FF,"AJM-Ajusco Medio | BUENA  | BAJO  | O3,NO2,SO2,PM10,PM2.5 |"
 MGH,#00e400FF,"MGH-Miguel Hidalgo | BUENA  | BAJO  | O3,NO2,SO2 |"
-BJU,#ffff00FF,BJU-Benito Ju\u00e1rez | ACEPTABLE  | MODERADO  | PM2.5 |
+BJU,#ffff00FF,"BJU-Benito Ju\u00e1rez | ACEPTABLE  | MODERADO  | PM10,PM2.5 |"
 GAM,#ffff00FF,GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | PM2.5 |
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#ffffffFF,SAC-Santiago Acahualtepec | SIN DATOS O EN MANTENIMIENTO  |  |  |
