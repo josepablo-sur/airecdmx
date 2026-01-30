@@ -14,7 +14,7 @@ CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
 PED,#ffff00FF,"PED-Pedregal | ACEPTABLE  | MODERADO  | NO2,PM2.5 |"
 TAH,#ff7e00FF,TAH-Tl\u00E1huac | MALA  | ALTO  | PM10 |
-UAX,#ffff00FF,UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | PM2.5 |
+UAX,#ffff00FF,"UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 UIZ,#ff7e00FF,"UIZ-UAM Iztapalapa | MALA  | ALTO  | PM10,PM2.5 |"
 NEZ,#ff7e00FF,"NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | PM10,PM2.5 |"
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
@@ -22,10 +22,10 @@ IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#00e400FF,LLA-Los Laureles | BUENA  | BAJO  | O3 |
 SAG,#00e400FF,"SAG-San Agust\u00EDn | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 CCA,#ffff00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | ACEPTABLE  | MODERADO  | PM2.5 |
-AJM,#ffff00FF,AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | NO2 |
+AJM,#ffff00FF,"AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | O3,NO2,PM2.5 |"
 MGH,#ffff00FF,MGH-Miguel Hidalgo | ACEPTABLE  | MODERADO  | NO2 |
 BJU,#ff7e00FF,"BJU-Benito Ju\u00e1rez | MALA  | ALTO  | PM10,PM2.5 |"
-GAM,#ffff00FF,"GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | PM10,PM2.5 |"
+GAM,#ff7e00FF,GAM-Gustavo A. Madero | MALA  | ALTO  | PM2.5 |
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#ffffffFF,SAC-Santiago Acahualtepec | SIN DATOS O EN MANTENIMIENTO  |  |  |
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
