@@ -5,14 +5,14 @@ XAL,#ffff00FF,XAL-Xalostoc | ACEPTABLE  | MODERADO  | NO2 |
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2 |"
 TLI,#ff7e00FF,TLI-Tultitl\u00E1n | MALA  | ALTO  | PM10 |
 ATI,#00e400FF,"ATI-Atizap\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
-TLA,#00e400FF,"TLA-Tlalnepantla | BUENA  | BAJO  | O3,NO2,SO2,PM10,PM2.5 |"
+TLA,#00e400FF,"TLA-Tlalnepantla | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
 CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
 HGM,#ffff00FF,HGM-Hospital General de M\u00E9xico | ACEPTABLE  | MODERADO  | NO2 |
 MER,#ff7e00FF,"MER-Merced | MALA  | ALTO  | PM10,PM2.5 |"
-FAC,#00e400FF,"FAC-FES Acatl\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
+FAC,#ffff00FF,FAC-FES Acatl\u00E1n | ACEPTABLE  | MODERADO  | NO2 |
 CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#00e400FF,"PED-Pedregal | BUENA  | BAJO  | O3,NO2,SO2,PM10,PM2.5 |"
+PED,#ffff00FF,PED-Pedregal | ACEPTABLE  | MODERADO  | NO2 |
 TAH,#ff7e00FF,TAH-Tl\u00E1huac | MALA  | ALTO  | PM10 |
 UAX,#ffff00FF,UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | PM2.5 |
 UIZ,#ff7e00FF,"UIZ-UAM Iztapalapa | MALA  | ALTO  | PM10,PM2.5 |"
@@ -24,7 +24,7 @@ SAG,#00e400FF,"SAG-San Agust\u00EDn | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 CCA,#00e400FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | BUENA  | BAJO  | PM2.5 |
 AJM,#00e400FF,"AJM-Ajusco Medio | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
 MGH,#00e400FF,"MGH-Miguel Hidalgo | BUENA  | BAJO  | O3,NO2,SO2,CO |"
-BJU,#ffff00FF,"BJU-Benito Ju\u00e1rez | ACEPTABLE  | MODERADO  | PM10,PM2.5 |"
+BJU,#ff7e00FF,BJU-Benito Ju\u00e1rez | MALA  | ALTO  | PM10 |
 GAM,#ffff00FF,GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | PM2.5 |
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#ffffffFF,SAC-Santiago Acahualtepec | SIN DATOS O EN MANTENIMIENTO  |  |  |
