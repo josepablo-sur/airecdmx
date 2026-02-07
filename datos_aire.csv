@@ -25,7 +25,7 @@ CCA,#00e400FF,"CCA-Centro de Ciencias de la Atm\u00F3sfera | BUENA  | BAJO  | O3
 AJM,#00e400FF,"AJM-Ajusco Medio | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
 MGH,#00e400FF,"MGH-Miguel Hidalgo | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 BJU,#00e400FF,"BJU-Benito Ju\u00e1rez | BUENA  | BAJO  | O3,NO2,CO,PM10,PM2.5 |"
-GAM,#00e400FF,"GAM-Gustavo A. Madero | BUENA  | BAJO  | O3,NO2,PM10,PM2.5 |"
+GAM,#ffff00FF,GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | PM2.5 |
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#ffffffFF,SAC-Santiago Acahualtepec | SIN DATOS O EN MANTENIMIENTO  |  |  |
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
