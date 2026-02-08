@@ -16,16 +16,16 @@ PED,#ff7e00FF,PED-Pedregal | MALA  | ALTO  | O3 |
 TAH,#ff7e00FF,TAH-Tl\u00E1huac | MALA  | ALTO  | O3 |
 UAX,#ff7e00FF,UAX-UAM Xochimilco | MALA  | ALTO  | O3 |
 UIZ,#ffff00FF,"UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
-NEZ,#ffff00FF,NEZ-Nezahuac\u00F3yotl | ACEPTABLE  | MODERADO  | O3 |
+NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | O3 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#ffff00FF,LLA-Los Laureles | ACEPTABLE  | MODERADO  | O3 |
 SAG,#ffff00FF,SAG-San Agust\u00EDn | ACEPTABLE  | MODERADO  | O3 |
 CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | O3 |
-AJM,#ffff00FF,AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | O3 |
-MGH,#ffff00FF,MGH-Miguel Hidalgo | ACEPTABLE  | MODERADO  | O3 |
+AJM,#ff7e00FF,AJM-Ajusco Medio | MALA  | ALTO  | O3 |
+MGH,#ff7e00FF,MGH-Miguel Hidalgo | MALA  | ALTO  | O3 |
 BJU,#ff7e00FF,BJU-Benito Ju\u00e1rez | MALA  | ALTO  | O3 |
-GAM,#ff7e00FF,GAM-Gustavo A. Madero | MALA  | ALTO  | PM2.5 |
+GAM,#ffff00FF,"GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#ffffffFF,SAC-Santiago Acahualtepec | SIN DATOS O EN MANTENIMIENTO  |  |  |
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
