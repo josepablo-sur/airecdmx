@@ -2,12 +2,12 @@ slug,color_hex,info
 CUT,#ff7e00FF,"CUT-Cuautitl\u00E1n | MALA  | ALTO  | O3,PM10 |"
 VIF,#ff7e00FF,"VIF-Villa de las Flores | MALA  | ALTO  | O3,PM10 |"
 XAL,#ff7e00FF,XAL-Xalostoc | MALA  | ALTO  | O3 |
-LPR,#ffff00FF,LPR-La Presa | ACEPTABLE  | MODERADO  | O3 |
+LPR,#ff7e00FF,LPR-La Presa | MALA  | ALTO  | O3 |
 TLI,#ff7e00FF,"TLI-Tultitl\u00E1n | MALA  | ALTO  | O3,PM10 |"
-ATI,#ff7e00FF,ATI-Atizap\u00E1n | MALA  | ALTO  | O3 |
-TLA,#ffff00FF,TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | O3 |
+ATI,#ff7e00FF,"ATI-Atizap\u00E1n | MALA  | ALTO  | O3,PM10 |"
+TLA,#ff7e00FF,TLA-Tlalnepantla | MALA  | ALTO  | O3 |
 CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
-HGM,#ff7e00FF,HGM-Hospital General de M\u00E9xico | MALA  | ALTO  | O3 |
+HGM,#ff0000FF,HGM-Hospital General de M\u00E9xico | MUY MALA  | MUY ALTO  | O3 |
 MER,#ff7e00FF,"MER-Merced | MALA  | ALTO  | O3,PM10,PM2.5 |"
 FAC,#ff7e00FF,FAC-FES Acatl\u00E1n | MALA  | ALTO  | O3 |
 CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
@@ -16,10 +16,10 @@ PED,#ff7e00FF,PED-Pedregal | MALA  | ALTO  | O3 |
 TAH,#ffff00FF,TAH-Tl\u00E1huac | ACEPTABLE  | MODERADO  | O3 |
 UAX,#ffff00FF,"UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 UIZ,#ff7e00FF,"UIZ-UAM Iztapalapa | MALA  | ALTO  | PM10,PM2.5 |"
-NEZ,#ff7e00FF,"NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | O3,PM10,PM2.5 |"
+NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | PM2.5 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
-LLA,#ffff00FF,LLA-Los Laureles | ACEPTABLE  | MODERADO  | O3 |
+LLA,#ff7e00FF,LLA-Los Laureles | MALA  | ALTO  | O3 |
 SAG,#ff7e00FF,SAG-San Agust\u00EDn | MALA  | ALTO  | O3 |
 CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | O3 |
 AJM,#ffff00FF,"AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
