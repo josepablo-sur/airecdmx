@@ -1,11 +1,11 @@
 slug,color_hex,info
 CUT,#00e400FF,"CUT-Cuautitl\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,PM10 |"
 VIF,#ff7e00FF,VIF-Villa de las Flores | MALA  | ALTO  | PM10 |
-XAL,#ffff00FF,XAL-Xalostoc | ACEPTABLE  | MODERADO  | NO2 |
+XAL,#00e400FF,"XAL-Xalostoc | BUENA  | BAJO  | O3,NO2,SO2 |"
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2 |"
 TLI,#ffffffFF,TLI-Tultitl\u00E1n | SIN DATOS O EN MANTENIMIENTO  |  |  |
-ATI,#00e400FF,"ATI-Atizap\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,PM10 |"
-TLA,#00e400FF,"TLA-Tlalnepantla | BUENA  | BAJO  | O3,NO2,PM10,PM2.5 |"
+ATI,#ffff00FF,ATI-Atizap\u00E1n | ACEPTABLE  | MODERADO  | PM10 |
+TLA,#ffff00FF,TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | PM2.5 |
 CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
 HGM,#ffff00FF,HGM-Hospital General de M\u00E9xico | ACEPTABLE  | MODERADO  | NO2 |
 MER,#ffffffFF,MER-Merced | SIN DATOS O EN MANTENIMIENTO  |  |  |
