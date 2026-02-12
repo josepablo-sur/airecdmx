@@ -5,14 +5,14 @@ XAL,#ffffffFF,XAL-Xalostoc | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2,CO |"
 TLI,#ffffffFF,TLI-Tultitl\u00E1n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 ATI,#ff7e00FF,ATI-Atizap\u00E1n | MALA  | ALTO  | PM10 |
-TLA,#ff7e00FF,"TLA-Tlalnepantla | MALA  | ALTO  | PM10,PM2.5 |"
+TLA,#00e400FF,"TLA-Tlalnepantla | BUENA  | BAJO  | NO2,SO2,CO,PM10 |"
 CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
 HGM,#00e400FF,"HGM-Hospital General de M\u00E9xico | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 MER,#ff7e00FF,"MER-Merced | MALA  | ALTO  | PM10,PM2.5 |"
 FAC,#00e400FF,"FAC-FES Acatl\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
 CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#00e400FF,"PED-Pedregal | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
+PED,#00e400FF,"PED-Pedregal | BUENA  | BAJO  | SO2,PM10,PM2.5 |"
 TAH,#ff7e00FF,TAH-Tl\u00E1huac | MALA  | ALTO  | PM10 |
 UAX,#ffff00FF,UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | PM2.5 |
 UIZ,#ff7e00FF,UIZ-UAM Iztapalapa | MALA  | ALTO  | PM2.5 |
