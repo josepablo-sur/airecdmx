@@ -1,6 +1,6 @@
 slug,color_hex,info
 CUT,#ff7e00FF,"CUT-Cuautitl\u00E1n | MALA  | ALTO  | O3,PM10 |"
-VIF,#ff7e00FF,"VIF-Villa de las Flores | MALA  | ALTO  | O3,PM10 |"
+VIF,#ff7e00FF,VIF-Villa de las Flores | MALA  | ALTO  | O3 |
 XAL,#ffffffFF,XAL-Xalostoc | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LPR,#ff7e00FF,LPR-La Presa | MALA  | ALTO  | O3 |
 TLI,#ffffffFF,TLI-Tultitl\u00E1n | SIN DATOS O EN MANTENIMIENTO  |  |  |
@@ -13,15 +13,15 @@ FAC,#ff0000FF,FAC-FES Acatl\u00E1n | MUY MALA  | MUY ALTO  | O3 |
 CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
 PED,#ff7e00FF,PED-Pedregal | MALA  | ALTO  | O3 |
-TAH,#ff7e00FF,TAH-Tl\u00E1huac | MALA  | ALTO  | O3 |
-UAX,#ffff00FF,"UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
+TAH,#ffff00FF,TAH-Tl\u00E1huac | ACEPTABLE  | MODERADO  | O3 |
+UAX,#ff7e00FF,UAX-UAM Xochimilco | MALA  | ALTO  | O3 |
 UIZ,#ff7e00FF,UIZ-UAM Iztapalapa | MALA  | ALTO  | PM2.5 |
-NEZ,#ff0000FF,NEZ-Nezahuac\u00F3yotl | MUY MALA  | MUY ALTO  | O3 |
+NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | O3 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#ff0000FF,LLA-Los Laureles | MUY MALA  | MUY ALTO  | O3 |
 SAG,#ffffffFF,SAG-San Agust\u00EDn | SIN DATOS O EN MANTENIMIENTO  |  |  |
-CCA,#ff0000FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MUY MALA  | MUY ALTO  | O3 |
+CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | O3 |
 AJM,#ff7e00FF,AJM-Ajusco Medio | MALA  | ALTO  | O3 |
 MGH,#ff0000FF,MGH-Miguel Hidalgo | MUY MALA  | MUY ALTO  | O3 |
 BJU,#ff0000FF,BJU-Benito Ju\u00e1rez | MUY MALA  | MUY ALTO  | O3 |
