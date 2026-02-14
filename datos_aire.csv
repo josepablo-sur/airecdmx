@@ -4,27 +4,27 @@ VIF,#ff7e00FF,"VIF-Villa de las Flores | MALA  | ALTO  | O3,PM10 |"
 XAL,#ffffffFF,XAL-Xalostoc | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LPR,#ff7e00FF,LPR-La Presa | MALA  | ALTO  | O3 |
 TLI,#ffffffFF,TLI-Tultitl\u00E1n | SIN DATOS O EN MANTENIMIENTO  |  |  |
-ATI,#ff7e00FF,ATI-Atizap\u00E1n | MALA  | ALTO  | O3 |
-TLA,#ff7e00FF,"TLA-Tlalnepantla | MALA  | ALTO  | O3,PM10,PM2.5 |"
+ATI,#ff0000FF,ATI-Atizap\u00E1n | MUY MALA  | MUY ALTO  | O3 |
+TLA,#ff0000FF,TLA-Tlalnepantla | MUY MALA  | MUY ALTO  | O3 |
 CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
-HGM,#ff7e00FF,HGM-Hospital General de M\u00E9xico | MALA  | ALTO  | O3 |
-MER,#ff7e00FF,"MER-Merced | MALA  | ALTO  | O3,PM10,PM2.5 |"
-FAC,#ff7e00FF,"FAC-FES Acatl\u00E1n | MALA  | ALTO  | O3,PM10 |"
+HGM,#ff0000FF,HGM-Hospital General de M\u00E9xico | MUY MALA  | MUY ALTO  | O3 |
+MER,#ff0000FF,MER-Merced | MUY MALA  | MUY ALTO  | O3 |
+FAC,#ff0000FF,FAC-FES Acatl\u00E1n | MUY MALA  | MUY ALTO  | O3 |
 CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
 PED,#ff7e00FF,PED-Pedregal | MALA  | ALTO  | O3 |
 TAH,#ff7e00FF,TAH-Tl\u00E1huac | MALA  | ALTO  | O3 |
-UAX,#ff7e00FF,UAX-UAM Xochimilco | MALA  | ALTO  | O3 |
+UAX,#ffff00FF,"UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 UIZ,#ff7e00FF,UIZ-UAM Iztapalapa | MALA  | ALTO  | PM2.5 |
-NEZ,#ff7e00FF,"NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | O3,PM10,PM2.5 |"
+NEZ,#ff0000FF,NEZ-Nezahuac\u00F3yotl | MUY MALA  | MUY ALTO  | O3 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
-LLA,#ff7e00FF,LLA-Los Laureles | MALA  | ALTO  | O3 |
+LLA,#ff0000FF,LLA-Los Laureles | MUY MALA  | MUY ALTO  | O3 |
 SAG,#ffffffFF,SAG-San Agust\u00EDn | SIN DATOS O EN MANTENIMIENTO  |  |  |
-CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | O3 |
+CCA,#ff0000FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MUY MALA  | MUY ALTO  | O3 |
 AJM,#ff7e00FF,AJM-Ajusco Medio | MALA  | ALTO  | O3 |
-MGH,#ff7e00FF,MGH-Miguel Hidalgo | MALA  | ALTO  | O3 |
-BJU,#ff7e00FF,BJU-Benito Ju\u00e1rez | MALA  | ALTO  | O3 |
+MGH,#ff0000FF,MGH-Miguel Hidalgo | MUY MALA  | MUY ALTO  | O3 |
+BJU,#ff0000FF,BJU-Benito Ju\u00e1rez | MUY MALA  | MUY ALTO  | O3 |
 GAM,#ff7e00FF,"GAM-Gustavo A. Madero | MALA  | ALTO  | O3,PM10,PM2.5 |"
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#ffffffFF,SAC-Santiago Acahualtepec | SIN DATOS O EN MANTENIMIENTO  |  |  |
