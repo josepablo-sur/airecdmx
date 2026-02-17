@@ -1,11 +1,11 @@
 slug,color_hex,info
-CUT,#ff7e00FF,CUT-Cuautitl\u00E1n | MALA  | ALTO  | PM10 |
+CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | PM10 |
 VIF,#ff7e00FF,VIF-Villa de las Flores | MALA  | ALTO  | PM10 |
 XAL,#ffffffFF,XAL-Xalostoc | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | SO2,CO |"
 TLI,#ffffffFF,TLI-Tultitl\u00E1n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 ATI,#00e400FF,"ATI-Atizap\u00E1n | BUENA  | BAJO  | SO2,CO,PM10 |"
-TLA,#ff7e00FF,TLA-Tlalnepantla | MALA  | ALTO  | PM10 |
+TLA,#ffff00FF,TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | PM2.5 |
 CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
 HGM,#00e400FF,"HGM-Hospital General de M\u00E9xico | BUENA  | BAJO  | SO2,CO |"
 MER,#ff7e00FF,MER-Merced | MALA  | ALTO  | PM10 |
@@ -21,11 +21,11 @@ CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#ffffffFF,LLA-Los Laureles | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAG,#ffffffFF,SAG-San Agust\u00EDn | SIN DATOS O EN MANTENIMIENTO  |  |  |
-CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | PM2.5 |
+CCA,#ffff00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | ACEPTABLE  | MODERADO  | PM2.5 |
 AJM,#ffff00FF,AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | PM2.5 |
 MGH,#00e400FF,"MGH-Miguel Hidalgo | BUENA  | BAJO  | SO2,CO |"
 BJU,#ffff00FF,BJU-Benito Ju\u00e1rez | ACEPTABLE  | MODERADO  | PM2.5 |
-GAM,#00e400FF,"GAM-Gustavo A. Madero | BUENA  | BAJO  | PM10,PM2.5 |"
+GAM,#ffff00FF,GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | PM2.5 |
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#ffffffFF,SAC-Santiago Acahualtepec | SIN DATOS O EN MANTENIMIENTO  |  |  |
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
