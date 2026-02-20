@@ -1,7 +1,7 @@
 slug,color_hex,info
 CUT,#ff7e00FF,CUT-Cuautitl\u00E1n | MALA  | ALTO  | PM10 |
 VIF,#00e400FF,"VIF-Villa de las Flores | BUENA  | BAJO  | O3,NO2,SO2,CO |"
-XAL,#ffff00FF,XAL-Xalostoc | ACEPTABLE  | MODERADO  | NO2 |
+XAL,#00e400FF,"XAL-Xalostoc | BUENA  | BAJO  | O3,NO2,SO2 |"
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2,CO |"
 TLI,#ffffffFF,TLI-Tultitl\u00E1n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 ATI,#ff7e00FF,ATI-Atizap\u00E1n | MALA  | ALTO  | PM10 |
@@ -12,20 +12,20 @@ MER,#ff7e00FF,MER-Merced | MALA  | ALTO  | PM10 |
 FAC,#ff7e00FF,FAC-FES Acatl\u00E1n | MALA  | ALTO  | PM10 |
 CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#ffff00FF,"PED-Pedregal | ACEPTABLE  | MODERADO  | NO2,PM2.5 |"
+PED,#ffff00FF,PED-Pedregal | ACEPTABLE  | MODERADO  | PM2.5 |
 TAH,#ff7e00FF,TAH-Tl\u00E1huac | MALA  | ALTO  | PM10 |
-UAX,#ffff00FF,UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | PM2.5 |
-UIZ,#ff7e00FF,UIZ-UAM Iztapalapa | MALA  | ALTO  | PM10 |
+UAX,#ffff00FF,"UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | NO2,PM2.5 |"
+UIZ,#00e400FF,UIZ-UAM Iztapalapa | BUENA  | BAJO  | SO2 |
 NEZ,#00e400FF,NEZ-Nezahuac\u00F3yotl | BUENA  | BAJO  | O3 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#00e400FF,LLA-Los Laureles | BUENA  | BAJO  | O3 |
 SAG,#ffffffFF,SAG-San Agust\u00EDn | SIN DATOS O EN MANTENIMIENTO  |  |  |
-CCA,#ffff00FF,"CCA-Centro de Ciencias de la Atm\u00F3sfera | ACEPTABLE  | MODERADO  | NO2,PM2.5 |"
+CCA,#ffff00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | ACEPTABLE  | MODERADO  | PM2.5 |
 AJM,#ffff00FF,AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | PM2.5 |
-MGH,#00e400FF,"MGH-Miguel Hidalgo | BUENA  | BAJO  | O3,NO2,SO2,CO |"
+MGH,#ffff00FF,MGH-Miguel Hidalgo | ACEPTABLE  | MODERADO  | NO2 |
 BJU,#ff7e00FF,BJU-Benito Ju\u00e1rez | MALA  | ALTO  | PM10 |
-GAM,#ff7e00FF,GAM-Gustavo A. Madero | MALA  | ALTO  | PM10 |
+GAM,#ff7e00FF,"GAM-Gustavo A. Madero | MALA  | ALTO  | PM10,PM2.5 |"
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#ffffffFF,SAC-Santiago Acahualtepec | SIN DATOS O EN MANTENIMIENTO  |  |  |
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
