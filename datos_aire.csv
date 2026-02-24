@@ -1,11 +1,11 @@
 slug,color_hex,info
-CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | PM10 |
+CUT,#ff7e00FF,CUT-Cuautitl\u00E1n | MALA  | ALTO  | PM10 |
 VIF,#00e400FF,"VIF-Villa de las Flores | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 XAL,#00e400FF,"XAL-Xalostoc | BUENA  | BAJO  | O3,NO2,SO2 |"
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2,CO |"
 TLI,#ffffffFF,TLI-Tultitl\u00E1n | SIN DATOS O EN MANTENIMIENTO  |  |  |
-ATI,#00e400FF,"ATI-Atizap\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
-TLA,#ff7e00FF,TLA-Tlalnepantla | MALA  | ALTO  | PM2.5 |
+ATI,#ffff00FF,ATI-Atizap\u00E1n | ACEPTABLE  | MODERADO  | PM10 |
+TLA,#ffff00FF,TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | PM2.5 |
 CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
 HGM,#00e400FF,"HGM-Hospital General de M\u00E9xico | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 MER,#00e400FF,"MER-Merced | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
@@ -24,8 +24,8 @@ SAG,#00e400FF,"SAG-San Agust\u00EDn | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 CCA,#00e400FF,"CCA-Centro de Ciencias de la Atm\u00F3sfera | BUENA  | BAJO  | O3,NO2,SO2,CO,PM2.5 |"
 AJM,#00e400FF,"AJM-Ajusco Medio | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 MGH,#00e400FF,"MGH-Miguel Hidalgo | BUENA  | BAJO  | O3,NO2,SO2,CO |"
-BJU,#00e400FF,"BJU-Benito Ju\u00e1rez | BUENA  | BAJO  | O3,NO2,CO,PM10,PM2.5 |"
-GAM,#00e400FF,"GAM-Gustavo A. Madero | BUENA  | BAJO  | O3,NO2,PM10,PM2.5 |"
+BJU,#00e400FF,"BJU-Benito Ju\u00e1rez | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
+GAM,#00e400FF,"GAM-Gustavo A. Madero | BUENA  | BAJO  | O3,NO2 |"
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#ffffffFF,SAC-Santiago Acahualtepec | SIN DATOS O EN MANTENIMIENTO  |  |  |
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
