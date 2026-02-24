@@ -1,18 +1,18 @@
 slug,color_hex,info
-CUT,#00e400FF,"CUT-Cuautitl\u00E1n | BUENA  | BAJO  | O3,SO2,CO,PM10 |"
+CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | PM10 |
 VIF,#00e400FF,"VIF-Villa de las Flores | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 XAL,#00e400FF,"XAL-Xalostoc | BUENA  | BAJO  | O3,NO2,SO2 |"
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2,CO |"
 TLI,#ffffffFF,TLI-Tultitl\u00E1n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 ATI,#00e400FF,"ATI-Atizap\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
-TLA,#ffff00FF,TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | PM2.5 |
+TLA,#ff7e00FF,TLA-Tlalnepantla | MALA  | ALTO  | PM2.5 |
 CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
 HGM,#00e400FF,"HGM-Hospital General de M\u00E9xico | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 MER,#00e400FF,"MER-Merced | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
 FAC,#00e400FF,"FAC-FES Acatl\u00E1n | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
 CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#00e400FF,"PED-Pedregal | BUENA  | BAJO  | O3,NO2,SO2,PM10,PM2.5 |"
+PED,#00e400FF,"PED-Pedregal | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10,PM2.5 |"
 TAH,#00e400FF,"TAH-Tl\u00E1huac | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
 UAX,#00e400FF,"UAX-UAM Xochimilco | BUENA  | BAJO  | O3,NO2,SO2,CO,PM2.5 |"
 UIZ,#00e400FF,"UIZ-UAM Iztapalapa | BUENA  | BAJO  | O3,NO2,SO2,PM10,PM2.5 |"
