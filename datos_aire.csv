@@ -1,5 +1,5 @@
 slug,color_hex,info
-CUT,#ffff00FF,"CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | O3,PM10 |"
+CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 VIF,#00e400FF,"VIF-Villa de las Flores | BUENA  | BAJO  | O3,NO2,SO2,CO |"
 XAL,#00e400FF,"XAL-Xalostoc | BUENA  | BAJO  | O3,NO2,SO2 |"
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | SO2,CO |"
@@ -8,7 +8,7 @@ ATI,#ffff00FF,ATI-Atizap\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 TLA,#ffff00FF,TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | O3 |
 CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
 HGM,#ffff00FF,HGM-Hospital General de M\u00E9xico | ACEPTABLE  | MODERADO  | O3 |
-MER,#ffff00FF,"MER-Merced | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
+MER,#ffff00FF,MER-Merced | ACEPTABLE  | MODERADO  | O3 |
 FAC,#ffff00FF,FAC-FES Acatl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
