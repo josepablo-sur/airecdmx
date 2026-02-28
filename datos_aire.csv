@@ -1,7 +1,7 @@
 slug,color_hex,info
 CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 VIF,#00e400FF,"VIF-Villa de las Flores | BUENA  | BAJO  | O3,NO2,SO2,CO,PM10 |"
-XAL,#ffff00FF,XAL-Xalostoc | ACEPTABLE  | MODERADO  | O3 |
+XAL,#00e400FF,"XAL-Xalostoc | BUENA  | BAJO  | O3,NO2,SO2 |"
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | SO2,CO |"
 TLI,#ffff00FF,TLI-Tultitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 ATI,#ffff00FF,ATI-Atizap\u00E1n | ACEPTABLE  | MODERADO  | O3 |
@@ -13,10 +13,10 @@ FAC,#ffff00FF,FAC-FES Acatl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
 PED,#ffff00FF,PED-Pedregal | ACEPTABLE  | MODERADO  | O3 |
-TAH,#00e400FF,"TAH-Tl\u00E1huac | BUENA  | BAJO  | SO2,CO,PM10 |"
+TAH,#ffff00FF,TAH-Tl\u00E1huac | ACEPTABLE  | MODERADO  | O3 |
 UAX,#ffff00FF,UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3 |
 UIZ,#00e400FF,"UIZ-UAM Iztapalapa | BUENA  | BAJO  | O3,NO2,SO2,PM10,PM2.5 |"
-NEZ,#ffff00FF,NEZ-Nezahuac\u00F3yotl | ACEPTABLE  | MODERADO  | O3 |
+NEZ,#00e400FF,"NEZ-Nezahuac\u00F3yotl | BUENA  | BAJO  | NO2,SO2,CO,PM10,PM2.5 |"
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#ffff00FF,LLA-Los Laureles | ACEPTABLE  | MODERADO  | O3 |
@@ -25,7 +25,7 @@ CCA,#ffff00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | ACEPTABLE  | MODERAD
 AJM,#ffff00FF,AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | O3 |
 MGH,#ffff00FF,MGH-Miguel Hidalgo | ACEPTABLE  | MODERADO  | O3 |
 BJU,#ffffffFF,BJU-Benito Ju\u00e1rez | SIN DATOS O EN MANTENIMIENTO  |  |  |
-GAM,#ffff00FF,GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | O3 |
+GAM,#00e400FF,"GAM-Gustavo A. Madero | BUENA  | BAJO  | O3,NO2,PM10,PM2.5 |"
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#ffffffFF,SAC-Santiago Acahualtepec | SIN DATOS O EN MANTENIMIENTO  |  |  |
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
