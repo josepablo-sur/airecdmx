@@ -9,14 +9,14 @@ TLA,#ffff00FF,"TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
 HGM,#ffff00FF,HGM-Hospital General de M\u00E9xico | ACEPTABLE  | MODERADO  | O3 |
 MER,#ffff00FF,MER-Merced | ACEPTABLE  | MODERADO  | O3 |
-FAC,#ff7e00FF,FAC-FES Acatl\u00E1n | MALA  | ALTO  | O3 |
+FAC,#ffff00FF,FAC-FES Acatl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#ff7e00FF,PED-Pedregal | MALA  | ALTO  | O3 |
+PED,#ffff00FF,PED-Pedregal | ACEPTABLE  | MODERADO  | O3 |
 TAH,#ff7e00FF,TAH-Tl\u00E1huac | MALA  | ALTO  | O3 |
 UAX,#ffff00FF,UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3 |
-UIZ,#ffff00FF,"UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
-NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | O3 |
+UIZ,#ffff00FF,UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | O3 |
+NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | PM2.5 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#ffff00FF,LLA-Los Laureles | ACEPTABLE  | MODERADO  | O3 |
