@@ -1,29 +1,29 @@
 slug,color_hex,info
-CUT,#00e400FF,"CUT-Cuautitl\u00E1n | BUENA  | BAJO  | SO2,PM10 |"
+CUT,#ff7e00FF,CUT-Cuautitl\u00E1n | MALA  | ALTO  | O3 |
 VIF,#00e400FF,"VIF-Villa de las Flores | BUENA  | BAJO  | CO,PM10 |"
 XAL,#ff7e00FF,XAL-Xalostoc | MALA  | ALTO  | O3 |
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | SO2,CO |"
 TLI,#ff7e00FF,TLI-Tultitl\u00E1n | MALA  | ALTO  | O3 |
-ATI,#ffff00FF,ATI-Atizap\u00E1n | ACEPTABLE  | MODERADO  | O3 |
+ATI,#ff7e00FF,ATI-Atizap\u00E1n | MALA  | ALTO  | O3 |
 TLA,#ff7e00FF,"TLA-Tlalnepantla | MALA  | ALTO  | O3,PM2.5 |"
 CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
-HGM,#ff7e00FF,HGM-Hospital General de M\u00E9xico | MALA  | ALTO  | O3 |
-MER,#ff7e00FF,MER-Merced | MALA  | ALTO  | O3 |
+HGM,#ffff00FF,HGM-Hospital General de M\u00E9xico | ACEPTABLE  | MODERADO  | O3 |
+MER,#ffff00FF,"MER-Merced | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 FAC,#ff7e00FF,FAC-FES Acatl\u00E1n | MALA  | ALTO  | O3 |
 CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#ffff00FF,PED-Pedregal | ACEPTABLE  | MODERADO  | O3 |
+PED,#ffff00FF,"PED-Pedregal | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 TAH,#ffff00FF,TAH-Tl\u00E1huac | ACEPTABLE  | MODERADO  | O3 |
-UAX,#ffff00FF,"UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
-UIZ,#ffff00FF,"UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
-NEZ,#ffff00FF,"NEZ-Nezahuac\u00F3yotl | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
+UAX,#ffff00FF,UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | PM2.5 |
+UIZ,#ffff00FF,UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | PM2.5 |
+NEZ,#ffff00FF,NEZ-Nezahuac\u00F3yotl | ACEPTABLE  | MODERADO  | O3 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
-LLA,#ffff00FF,LLA-Los Laureles | ACEPTABLE  | MODERADO  | O3 |
-SAG,#00e400FF,SAG-San Agust\u00EDn | BUENA  | BAJO  | SO2 |
-CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | O3 |
+LLA,#ff7e00FF,LLA-Los Laureles | MALA  | ALTO  | O3 |
+SAG,#ff7e00FF,SAG-San Agust\u00EDn | MALA  | ALTO  | O3 |
+CCA,#ffff00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | ACEPTABLE  | MODERADO  | O3 |
 AJM,#ffff00FF,"AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
-MGH,#ff7e00FF,MGH-Miguel Hidalgo | MALA  | ALTO  | O3 |
+MGH,#ffff00FF,MGH-Miguel Hidalgo | ACEPTABLE  | MODERADO  | O3 |
 BJU,#ffffffFF,BJU-Benito Ju\u00e1rez | SIN DATOS O EN MANTENIMIENTO  |  |  |
 GAM,#ffff00FF,GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | O3 |
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
