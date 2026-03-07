@@ -1,9 +1,9 @@
 slug,color_hex,info
-CUT,#00e400FF,"CUT-Cuautitl\u00E1n | BUENA  | BAJO  | SO2,CO,PM10 |"
+CUT,#00e400FF,CUT-Cuautitl\u00E1n | BUENA  | BAJO  | PM10 |
 VIF,#00e400FF,"VIF-Villa de las Flores | BUENA  | BAJO  | SO2,CO,PM10 |"
-XAL,#00e400FF,XAL-Xalostoc | BUENA  | BAJO  | SO2 |
+XAL,#ffffffFF,XAL-Xalostoc | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | SO2,CO |"
-TLI,#ffff00FF,TLI-Tultitl\u00E1n | ACEPTABLE  | MODERADO  | PM10 |
+TLI,#00e400FF,"TLI-Tultitl\u00E1n | BUENA  | BAJO  | SO2,CO,PM10 |"
 ATI,#00e400FF,"ATI-Atizap\u00E1n | BUENA  | BAJO  | SO2,CO,PM10 |"
 TLA,#ffff00FF,TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | PM2.5 |
 CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
@@ -13,15 +13,15 @@ FAC,#00e400FF,"FAC-FES Acatl\u00E1n | BUENA  | BAJO  | SO2,CO,PM10 |"
 CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
 PED,#00e400FF,"PED-Pedregal | BUENA  | BAJO  | SO2,CO,PM10,PM2.5 |"
-TAH,#00e400FF,"TAH-Tl\u00E1huac | BUENA  | BAJO  | SO2,CO,PM10 |"
+TAH,#00e400FF,"TAH-Tl\u00E1huac | BUENA  | BAJO  | CO,PM10 |"
 UAX,#ffff00FF,UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | PM2.5 |
 UIZ,#ffff00FF,UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | PM2.5 |
 NEZ,#00e400FF,NEZ-Nezahuac\u00F3yotl | BUENA  | BAJO  | SO2 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#ffffffFF,LLA-Los Laureles | SIN DATOS O EN MANTENIMIENTO  |  |  |
-SAG,#00e400FF,SAG-San Agust\u00EDn | BUENA  | BAJO  | CO |
-CCA,#ffff00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | ACEPTABLE  | MODERADO  | PM2.5 |
+SAG,#ffffffFF,SAG-San Agust\u00EDn | SIN DATOS O EN MANTENIMIENTO  |  |  |
+CCA,#00e400FF,"CCA-Centro de Ciencias de la Atm\u00F3sfera | BUENA  | BAJO  | SO2,CO,PM2.5 |"
 AJM,#ffff00FF,AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | PM2.5 |
 MGH,#00e400FF,"MGH-Miguel Hidalgo | BUENA  | BAJO  | SO2,CO |"
 BJU,#ffffffFF,BJU-Benito Ju\u00e1rez | SIN DATOS O EN MANTENIMIENTO  |  |  |
