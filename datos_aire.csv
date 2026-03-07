@@ -14,15 +14,15 @@ CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
 PED,#ffff00FF,"PED-Pedregal | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 TAH,#ffff00FF,TAH-Tl\u00E1huac | ACEPTABLE  | MODERADO  | O3 |
-UAX,#ffff00FF,"UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
+UAX,#ffff00FF,UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | PM2.5 |
 UIZ,#ffff00FF,UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | PM2.5 |
-NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | O3 |
+NEZ,#ffff00FF,"NEZ-Nezahuac\u00F3yotl | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LLA,#ff7e00FF,LLA-Los Laureles | MALA  | ALTO  | O3 |
 SAG,#ff7e00FF,SAG-San Agust\u00EDn | MALA  | ALTO  | O3 |
-CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | O3 |
-AJM,#ffff00FF,AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | O3 |
+CCA,#ffff00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | ACEPTABLE  | MODERADO  | O3 |
+AJM,#ffff00FF,"AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 MGH,#ff7e00FF,MGH-Miguel Hidalgo | MALA  | ALTO  | O3 |
 BJU,#ffffffFF,BJU-Benito Ju\u00e1rez | SIN DATOS O EN MANTENIMIENTO  |  |  |
 GAM,#ffff00FF,"GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
