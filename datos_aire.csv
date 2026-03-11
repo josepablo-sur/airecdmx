@@ -2,7 +2,7 @@ slug,color_hex,info
 CUT,#ff7e00FF,CUT-Cuautitl\u00E1n | MALA  | ALTO  | O3 |
 VIF,#ff7e00FF,VIF-Villa de las Flores | MALA  | ALTO  | O3 |
 XAL,#ff7e00FF,XAL-Xalostoc | MALA  | ALTO  | O3 |
-LPR,#ff0000FF,LPR-La Presa | MUY MALA  | MUY ALTO  | O3 |
+LPR,#ff7e00FF,LPR-La Presa | MALA  | ALTO  | O3 |
 TLI,#ff7e00FF,TLI-Tultitl\u00E1n | MALA  | ALTO  | O3 |
 ATI,#ff7e00FF,ATI-Atizap\u00E1n | MALA  | ALTO  | O3 |
 TLA,#ff7e00FF,"TLA-Tlalnepantla | MALA  | ALTO  | O3,PM2.5 |"
@@ -12,20 +12,20 @@ MER,#ff0000FF,MER-Merced | MUY MALA  | MUY ALTO  | O3 |
 FAC,#ff0000FF,FAC-FES Acatl\u00E1n | MUY MALA  | MUY ALTO  | O3 |
 CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#ff7e00FF,PED-Pedregal | MALA  | ALTO  | O3 |
+PED,#ff7e00FF,"PED-Pedregal | MALA  | ALTO  | O3,PM2.5 |"
 TAH,#ff7e00FF,TAH-Tl\u00E1huac | MALA  | ALTO  | O3 |
 UAX,#ff7e00FF,UAX-UAM Xochimilco | MALA  | ALTO  | O3 |
 UIZ,#ffff00FF,"UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | O3 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
-IZT,#ff7e00FF,IZT-Iztacalco | MALA  | ALTO  | O3 |
+IZT,#ff0000FF,IZT-Iztacalco | MUY MALA  | MUY ALTO  | O3 |
 LLA,#ff7e00FF,LLA-Los Laureles | MALA  | ALTO  | O3 |
-SAG,#ff0000FF,SAG-San Agust\u00EDn | MUY MALA  | MUY ALTO  | O3 |
+SAG,#ff7e00FF,SAG-San Agust\u00EDn | MALA  | ALTO  | O3 |
 CCA,#ff0000FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MUY MALA  | MUY ALTO  | O3 |
 AJM,#ffff00FF,AJM-Ajusco Medio | ACEPTABLE  | MODERADO  | PM2.5 |
 MGH,#ff0000FF,MGH-Miguel Hidalgo | MUY MALA  | MUY ALTO  | O3 |
 BJU,#ffffffFF,BJU-Benito Ju\u00e1rez | SIN DATOS O EN MANTENIMIENTO  |  |  |
-GAM,#ff7e00FF,GAM-Gustavo A. Madero | MALA  | ALTO  | O3 |
+GAM,#ff7e00FF,"GAM-Gustavo A. Madero | MALA  | ALTO  | O3,PM2.5 |"
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SAC,#ffffffFF,SAC-Santiago Acahualtepec | SIN DATOS O EN MANTENIMIENTO  |  |  |
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
