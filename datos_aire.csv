@@ -2,7 +2,7 @@ slug,color_hex,info
 CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 VIF,#ffff00FF,VIF-Villa de las Flores | ACEPTABLE  | MODERADO  | O3 |
 XAL,#ff7e00FF,XAL-Xalostoc | MALA  | ALTO  | O3 |
-LPR,#ff7e00FF,LPR-La Presa | MALA  | ALTO  | O3 |
+LPR,#ffff00FF,LPR-La Presa | ACEPTABLE  | MODERADO  | O3 |
 TLI,#ffff00FF,TLI-Tultitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 ATI,#ffff00FF,ATI-Atizap\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 TLA,#ffff00FF,TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | O3 |
@@ -20,7 +20,7 @@ NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | O3 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ff7e00FF,IZT-Iztacalco | MALA  | ALTO  | O3 |
 LLA,#ffff00FF,LLA-Los Laureles | ACEPTABLE  | MODERADO  | O3 |
-SAG,#ff7e00FF,SAG-San Agust\u00EDn | MALA  | ALTO  | O3 |
+SAG,#00e400FF,"SAG-San Agust\u00EDn | BUENA  | BAJO  | SO2,CO |"
 CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | O3 |
 AJM,#ff7e00FF,AJM-Ajusco Medio | MALA  | ALTO  | O3 |
 MGH,#00e400FF,MGH-Miguel Hidalgo | BUENA  | BAJO  | SO2 |
