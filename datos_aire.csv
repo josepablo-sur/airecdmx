@@ -1,6 +1,6 @@
 slug,color_hex,info
 CUT,#00e400FF,"CUT-Cuautitl\u00E1n | BUENA  | BAJO  | O3,NO2,SO2 |"
-VIF,#ffff00FF,VIF-Villa de las Flores | ACEPTABLE  | MODERADO  | PM10 |
+VIF,#ff7e00FF,VIF-Villa de las Flores | MALA  | ALTO  | PM10 |
 XAL,#00e400FF,"XAL-Xalostoc | BUENA  | BAJO  | O3,NO2,SO2 |"
 LPR,#ffffffFF,LPR-La Presa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 TLI,#ff7e00FF,TLI-Tultitl\u00E1n | MALA  | ALTO  | PM10 |
@@ -18,7 +18,7 @@ UAX,#00e400FF,"UAX-UAM Xochimilco | BUENA  | BAJO  | O3,NO2,SO2,PM2.5 |"
 UIZ,#ffff00FF,UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | PM2.5 |
 NEZ,#00e400FF,"NEZ-Nezahuac\u00F3yotl | BUENA  | BAJO  | O3,NO2 |"
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
-IZT,#00e400FF,"IZT-Iztacalco | BUENA  | BAJO  | O3,NO2,PM10 |"
+IZT,#ffff00FF,IZT-Iztacalco | ACEPTABLE  | MODERADO  | PM10 |
 LLA,#00e400FF,LLA-Los Laureles | BUENA  | BAJO  | O3 |
 SAG,#00e400FF,"SAG-San Agust\u00EDn | BUENA  | BAJO  | O3,NO2,SO2 |"
 CCA,#00e400FF,"CCA-Centro de Ciencias de la Atm\u00F3sfera | BUENA  | BAJO  | O3,NO2,PM2.5 |"
