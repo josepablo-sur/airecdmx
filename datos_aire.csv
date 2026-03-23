@@ -1,31 +1,31 @@
 slug,color_hex,info
-CUT,#ffffffFF,CUT-Cuautitl\u00E1n | SIN DATOS O EN MANTENIMIENTO  |  |  |
-VIF,#ffffffFF,VIF-Villa de las Flores | SIN DATOS O EN MANTENIMIENTO  |  |  |
-XAL,#ffffffFF,XAL-Xalostoc | SIN DATOS O EN MANTENIMIENTO  |  |  |
-LPR,#ffffffFF,LPR-La Presa | SIN DATOS O EN MANTENIMIENTO  |  |  |
-TLI,#ffffffFF,TLI-Tultitl\u00E1n | SIN DATOS O EN MANTENIMIENTO  |  |  |
-ATI,#ffffffFF,ATI-Atizap\u00E1n | SIN DATOS O EN MANTENIMIENTO  |  |  |
-TLA,#ffffffFF,TLA-Tlalnepantla | SIN DATOS O EN MANTENIMIENTO  |  |  |
-CAM,#ffffffFF,CAM-Camarones | SIN DATOS O EN MANTENIMIENTO  |  |  |
-HGM,#ffffffFF,HGM-Hospital General de M\u00E9xico | SIN DATOS O EN MANTENIMIENTO  |  |  |
-MER,#ffffffFF,MER-Merced | SIN DATOS O EN MANTENIMIENTO  |  |  |
-FAC,#ffffffFF,FAC-FES Acatl\u00E1n | SIN DATOS O EN MANTENIMIENTO  |  |  |
+CUT,#00e400FF,"CUT-Cuautitl\u00E1n | BUENA  | BAJO  | NO2,SO2,CO,PM10 |"
+VIF,#00e400FF,"VIF-Villa de las Flores | BUENA  | BAJO  | SO2,PM10 |"
+XAL,#ffff00FF,XAL-Xalostoc | ACEPTABLE  | MODERADO  | O3 |
+LPR,#ffff00FF,LPR-La Presa | ACEPTABLE  | MODERADO  | O3 |
+TLI,#ffff00FF,TLI-Tultitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
+ATI,#ffff00FF,ATI-Atizap\u00E1n | ACEPTABLE  | MODERADO  | O3 |
+TLA,#ffff00FF,TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | O3 |
+CAM,#ffff00FF,CAM-Camarones | ACEPTABLE  | MODERADO  | O3 |
+HGM,#ffff00FF,HGM-Hospital General de M\u00E9xico | ACEPTABLE  | MODERADO  | O3 |
+MER,#ffff00FF,"MER-Merced | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
+FAC,#ffff00FF,FAC-FES Acatl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 CUA,#ffffffFF,CUA-Cuajimalpa | SIN DATOS O EN MANTENIMIENTO  |  |  |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#ffffffFF,PED-Pedregal | SIN DATOS O EN MANTENIMIENTO  |  |  |
-TAH,#ffffffFF,TAH-Tl\u00E1huac | SIN DATOS O EN MANTENIMIENTO  |  |  |
-UAX,#ffffffFF,UAX-UAM Xochimilco | SIN DATOS O EN MANTENIMIENTO  |  |  |
-UIZ,#ffffffFF,UIZ-UAM Iztapalapa | SIN DATOS O EN MANTENIMIENTO  |  |  |
-NEZ,#ffffffFF,NEZ-Nezahuac\u00F3yotl | SIN DATOS O EN MANTENIMIENTO  |  |  |
+PED,#ff7e00FF,PED-Pedregal | MALA  | ALTO  | O3 |
+TAH,#ffff00FF,TAH-Tl\u00E1huac | ACEPTABLE  | MODERADO  | O3 |
+UAX,#ffff00FF,UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3 |
+UIZ,#ffff00FF,UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | PM2.5 |
+NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | PM10 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
-IZT,#ffffffFF,IZT-Iztacalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
-LLA,#ffffffFF,LLA-Los Laureles | SIN DATOS O EN MANTENIMIENTO  |  |  |
-SAG,#ffffffFF,SAG-San Agust\u00EDn | SIN DATOS O EN MANTENIMIENTO  |  |  |
-CCA,#ffffffFF,CCA-Centro de Ciencias de la Atm\u00F3sfera | SIN DATOS O EN MANTENIMIENTO  |  |  |
-AJM,#ffffffFF,AJM-Ajusco Medio | SIN DATOS O EN MANTENIMIENTO  |  |  |
-MGH,#ffffffFF,MGH-Miguel Hidalgo | SIN DATOS O EN MANTENIMIENTO  |  |  |
-BJU,#ffffffFF,BJU-Benito Ju\u00e1rez | SIN DATOS O EN MANTENIMIENTO  |  |  |
-GAM,#ffffffFF,GAM-Gustavo A. Madero | SIN DATOS O EN MANTENIMIENTO  |  |  |
+IZT,#ffff00FF,IZT-Iztacalco | ACEPTABLE  | MODERADO  | O3 |
+LLA,#ffff00FF,LLA-Los Laureles | ACEPTABLE  | MODERADO  | O3 |
+SAG,#ffff00FF,SAG-San Agust\u00EDn | ACEPTABLE  | MODERADO  | O3 |
+CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | O3 |
+AJM,#ff7e00FF,AJM-Ajusco Medio | MALA  | ALTO  | O3 |
+MGH,#ffff00FF,MGH-Miguel Hidalgo | ACEPTABLE  | MODERADO  | O3 |
+BJU,#ffff00FF,BJU-Benito Ju\u00e1rez | ACEPTABLE  | MODERADO  | O3 |
+GAM,#ffff00FF,"GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
-SAC,#ffffffFF,SAC-Santiago Acahualtepec | SIN DATOS O EN MANTENIMIENTO  |  |  |
+SAC,#ffff00FF,SAC-Santiago Acahualtepec | ACEPTABLE  | MODERADO  | O3 |
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
