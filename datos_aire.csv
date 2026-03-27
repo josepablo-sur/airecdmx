@@ -1,6 +1,6 @@
 slug,color_hex,info
 CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
-VIF,#ffff00FF,VIF-Villa de las Flores | ACEPTABLE  | MODERADO  | O3 |
+VIF,#ffff00FF,"VIF-Villa de las Flores | ACEPTABLE  | MODERADO  | O3,PM10 |"
 XAL,#ffff00FF,XAL-Xalostoc | ACEPTABLE  | MODERADO  | O3 |
 LPR,#ffff00FF,LPR-La Presa | ACEPTABLE  | MODERADO  | O3 |
 TLI,#ffff00FF,TLI-Tultitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
@@ -12,10 +12,10 @@ MER,#ffff00FF,MER-Merced | ACEPTABLE  | MODERADO  | O3 |
 FAC,#ffff00FF,FAC-FES Acatl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 CUA,#ffff00FF,CUA-Cuajimalpa | ACEPTABLE  | MODERADO  | O3 |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#ffff00FF,PED-Pedregal | ACEPTABLE  | MODERADO  | PM2.5 |
+PED,#ffff00FF,PED-Pedregal | ACEPTABLE  | MODERADO  | O3 |
 TAH,#ffff00FF,TAH-Tl\u00E1huac | ACEPTABLE  | MODERADO  | O3 |
-UAX,#ffff00FF,"UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
-UIZ,#ffff00FF,"UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
+UAX,#ffff00FF,UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3 |
+UIZ,#ffff00FF,UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | O3 |
 NEZ,#ffff00FF,NEZ-Nezahuac\u00F3yotl | ACEPTABLE  | MODERADO  | O3 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffff00FF,IZT-Iztacalco | ACEPTABLE  | MODERADO  | O3 |
