@@ -15,7 +15,7 @@ SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
 PED,#ffff00FF,PED-Pedregal | ACEPTABLE  | MODERADO  | O3 |
 TAH,#ffff00FF,TAH-Tl\u00E1huac | ACEPTABLE  | MODERADO  | O3 |
 UAX,#ffff00FF,UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3 |
-UIZ,#ffff00FF,UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | O3 |
+UIZ,#ff7e00FF,UIZ-UAM Iztapalapa | MALA  | ALTO  | O3 |
 NEZ,#ffff00FF,NEZ-Nezahuac\u00F3yotl | ACEPTABLE  | MODERADO  | O3 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ffff00FF,IZT-Iztacalco | ACEPTABLE  | MODERADO  | O3 |
