@@ -2,7 +2,7 @@ slug,color_hex,info
 CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 VIF,#ffff00FF,VIF-Villa de las Flores | ACEPTABLE  | MODERADO  | O3 |
 XAL,#ff7e00FF,XAL-Xalostoc | MALA  | ALTO  | O3 |
-LPR,#00e400FF,LPR-La Presa | BUENA  | BAJO  | CO |
+LPR,#ff7e00FF,LPR-La Presa | MALA  | ALTO  | O3 |
 TLI,#ffff00FF,TLI-Tultitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 ATI,#ffff00FF,ATI-Atizap\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 TLA,#ffff00FF,"TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
@@ -12,19 +12,19 @@ MER,#ffff00FF,"MER-Merced | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 FAC,#ffff00FF,FAC-FES Acatl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 CUA,#00e400FF,"CUA-Cuajimalpa | BUENA  | BAJO  | O3,NO2,CO,PM10 |"
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#ffff00FF,PED-Pedregal | ACEPTABLE  | MODERADO  | PM2.5 |
+PED,#00e400FF,"PED-Pedregal | BUENA  | BAJO  | O3,NO2,SO2 |"
 TAH,#ffff00FF,TAH-Tl\u00E1huac | ACEPTABLE  | MODERADO  | O3 |
-UAX,#ff7e00FF,UAX-UAM Xochimilco | MALA  | ALTO  | O3 |
-UIZ,#ff7e00FF,UIZ-UAM Iztapalapa | MALA  | ALTO  | O3 |
+UAX,#ffff00FF,"UAX-UAM Xochimilco | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
+UIZ,#ffff00FF,"UIZ-UAM Iztapalapa | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | O3 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
-IZT,#ff7e00FF,IZT-Iztacalco | MALA  | ALTO  | O3 |
+IZT,#ffff00FF,IZT-Iztacalco | ACEPTABLE  | MODERADO  | O3 |
 LLA,#ff7e00FF,LLA-Los Laureles | MALA  | ALTO  | O3 |
 SAG,#ff7e00FF,SAG-San Agust\u00EDn | MALA  | ALTO  | O3 |
-CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | O3 |
+CCA,#ffff00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | ACEPTABLE  | MODERADO  | O3 |
 AJM,#ff7e00FF,AJM-Ajusco Medio | MALA  | ALTO  | O3 |
-MGH,#ffff00FF,MGH-Miguel Hidalgo | ACEPTABLE  | MODERADO  | O3 |
-BJU,#ff7e00FF,BJU-Benito Ju\u00e1rez | MALA  | ALTO  | O3 |
+MGH,#00e400FF,"MGH-Miguel Hidalgo | BUENA  | BAJO  | O3,NO2,SO2,CO |"
+BJU,#ffff00FF,"BJU-Benito Ju\u00e1rez | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 GAM,#ffff00FF,"GAM-Gustavo A. Madero | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 FAR,#ff7e00FF,FAR-FES Arag\u00F3n | MALA  | ALTO  | O3 |
 SAC,#ff7e00FF,SAC-Santiago Acahualtepec | MALA  | ALTO  | O3 |
