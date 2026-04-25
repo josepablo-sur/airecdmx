@@ -6,13 +6,13 @@ LPR,#ff7e00FF,LPR-La Presa | MALA  | ALTO  | O3 |
 TLI,#ff7e00FF,TLI-Tultitl\u00E1n | MALA  | ALTO  | O3 |
 ATI,#ff7e00FF,ATI-Atizap\u00E1n | MALA  | ALTO  | O3 |
 TLA,#ff7e00FF,TLA-Tlalnepantla | MALA  | ALTO  | O3 |
-CAM,#ff0000FF,CAM-Camarones | MUY MALA  | MUY ALTO  | O3 |
+CAM,#ff7e00FF,CAM-Camarones | MALA  | ALTO  | O3 |
 HGM,#ff7e00FF,HGM-Hospital General de M\u00E9xico | MALA  | ALTO  | O3 |
 MER,#ff7e00FF,MER-Merced | MALA  | ALTO  | O3 |
 FAC,#ff0000FF,FAC-FES Acatl\u00E1n | MUY MALA  | MUY ALTO  | O3 |
 CUA,#ff0000FF,CUA-Cuajimalpa | MUY MALA  | MUY ALTO  | O3 |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
-PED,#ff0000FF,PED-Pedregal | MUY MALA  | MUY ALTO  | O3 |
+PED,#ff7e00FF,PED-Pedregal | MALA  | ALTO  | O3 |
 TAH,#ff7e00FF,TAH-Tl\u00E1huac | MALA  | ALTO  | O3 |
 UAX,#ff7e00FF,UAX-UAM Xochimilco | MALA  | ALTO  | O3 |
 UIZ,#ff7e00FF,UIZ-UAM Iztapalapa | MALA  | ALTO  | O3 |
@@ -21,9 +21,9 @@ CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ff7e00FF,IZT-Iztacalco | MALA  | ALTO  | O3 |
 LLA,#ff7e00FF,LLA-Los Laureles | MALA  | ALTO  | O3 |
 SAG,#ff7e00FF,SAG-San Agust\u00EDn | MALA  | ALTO  | O3 |
-CCA,#ff0000FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MUY MALA  | MUY ALTO  | O3 |
+CCA,#ff7e00FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MALA  | ALTO  | O3 |
 AJM,#ff7e00FF,AJM-Ajusco Medio | MALA  | ALTO  | O3 |
-MGH,#ff7e00FF,MGH-Miguel Hidalgo | MALA  | ALTO  | O3 |
+MGH,#ff0000FF,MGH-Miguel Hidalgo | MUY MALA  | MUY ALTO  | O3 |
 BJU,#ff7e00FF,BJU-Benito Ju\u00e1rez | MALA  | ALTO  | O3 |
 GAM,#ff7e00FF,GAM-Gustavo A. Madero | MALA  | ALTO  | O3 |
 FAR,#ff7e00FF,FAR-FES Arag\u00F3n | MALA  | ALTO  | O3 |
