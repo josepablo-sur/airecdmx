@@ -1,14 +1,14 @@
 slug,color_hex,info
-CUT,#ff7e00FF,CUT-Cuautitl\u00E1n | MALA  | ALTO  | O3 |
+CUT,#ffff00FF,CUT-Cuautitl\u00E1n | ACEPTABLE  | MODERADO  | O3 |
 VIF,#00e400FF,"VIF-Villa de las Flores | BUENA  | BAJO  | NO2,SO2,CO,PM10 |"
 XAL,#ff7e00FF,XAL-Xalostoc | MALA  | ALTO  | O3 |
-LPR,#ff0000FF,LPR-La Presa | MUY MALA  | MUY ALTO  | O3 |
+LPR,#ff7e00FF,LPR-La Presa | MALA  | ALTO  | O3 |
 TLI,#ff7e00FF,TLI-Tultitl\u00E1n | MALA  | ALTO  | O3 |
 ATI,#ff7e00FF,ATI-Atizap\u00E1n | MALA  | ALTO  | O3 |
 TLA,#ff7e00FF,TLA-Tlalnepantla | MALA  | ALTO  | O3 |
-CAM,#ff7e00FF,CAM-Camarones | MALA  | ALTO  | O3 |
+CAM,#ff0000FF,CAM-Camarones | MUY MALA  | MUY ALTO  | O3 |
 HGM,#ffffffFF,HGM-Hospital General de M\u00E9xico | SIN DATOS O EN MANTENIMIENTO  |  |  |
-MER,#ff0000FF,MER-Merced | MUY MALA  | MUY ALTO  | O3 |
+MER,#ff7e00FF,MER-Merced | MALA  | ALTO  | O3 |
 FAC,#ff7e00FF,FAC-FES Acatl\u00E1n | MALA  | ALTO  | O3 |
 CUA,#ff7e00FF,CUA-Cuajimalpa | MALA  | ALTO  | O3 |
 SFE,#ffffffFF,SFE-Santa Fe | SIN DATOS O EN MANTENIMIENTO  |  |  |
@@ -20,12 +20,12 @@ NEZ,#ff7e00FF,NEZ-Nezahuac\u00F3yotl | MALA  | ALTO  | O3 |
 CHO,#ffffffFF,CHO-Chalco | SIN DATOS O EN MANTENIMIENTO  |  |  |
 IZT,#ff7e00FF,IZT-Iztacalco | MALA  | ALTO  | O3 |
 LLA,#ff7e00FF,LLA-Los Laureles | MALA  | ALTO  | O3 |
-SAG,#ff0000FF,SAG-San Agust\u00EDn | MUY MALA  | MUY ALTO  | O3 |
+SAG,#ff7e00FF,SAG-San Agust\u00EDn | MALA  | ALTO  | O3 |
 CCA,#ff0000FF,CCA-Centro de Ciencias de la Atm\u00F3sfera | MUY MALA  | MUY ALTO  | O3 |
 AJM,#ff7e00FF,AJM-Ajusco Medio | MALA  | ALTO  | O3 |
 MGH,#ff7e00FF,MGH-Miguel Hidalgo | MALA  | ALTO  | O3 |
 BJU,#ff7e00FF,BJU-Benito Ju\u00e1rez | MALA  | ALTO  | O3 |
 GAM,#ff7e00FF,GAM-Gustavo A. Madero | MALA  | ALTO  | O3 |
 FAR,#ffffffFF,FAR-FES Arag\u00F3n | SIN DATOS O EN MANTENIMIENTO  |  |  |
-SAC,#ff7e00FF,SAC-Santiago Acahualtepec | MALA  | ALTO  | O3 |
+SAC,#ffff00FF,"SAC-Santiago Acahualtepec | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
 DUDE,#999FF,La actualizaci\u00F3n del \u00cdndice AIRE y SALUD | (NOM-172-SEMARNAT-2023) ya considera las | actualizaciones de las Normas Oficiales Mexicanas | (NOM) en materia de salud realizadas en 2019 y 2021  | para los contaminantes criterio.
