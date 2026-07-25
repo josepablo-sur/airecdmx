@@ -5,7 +5,7 @@ XAL,#ffffffFF,XAL-Xalostoc | SIN DATOS O EN MANTENIMIENTO  |  |  |
 LPR,#00e400FF,"LPR-La Presa | BUENA  | BAJO  | O3,SO2,CO |"
 TLI,#00e400FF,"TLI-Tultitl\u00E1n | BUENA  | BAJO  | NO2,SO2,PM10 |"
 ATI,#ffff00FF,ATI-Atizap\u00E1n | ACEPTABLE  | MODERADO  | O3 |
-TLA,#ffff00FF,"TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | O3,PM2.5 |"
+TLA,#ffff00FF,TLA-Tlalnepantla | ACEPTABLE  | MODERADO  | O3 |
 CAM,#ffff00FF,CAM-Camarones | ACEPTABLE  | MODERADO  | O3 |
 HGM,#ffff00FF,HGM-Hospital General de M\u00E9xico | ACEPTABLE  | MODERADO  | O3 |
 MER,#ffff00FF,MER-Merced | ACEPTABLE  | MODERADO  | O3 |
